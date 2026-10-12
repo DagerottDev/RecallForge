@@ -1,0 +1,331 @@
+[
+  {
+    "id": "01-quick-tour",
+    "week": 1,
+    "short": false,
+    "title": "RecallForge: Free Practice and Revision — Quick Tour",
+    "thumbnailHeadline": "Practice. Review.\nRemember.",
+    "color": "#9fc5ff",
+    "playlist": "Getting Started",
+    "offsetDays": 0,
+    "targetSeconds": 90,
+    "scenes": [
+      {
+        "title": "Your study workspace",
+        "image": "home.jpg",
+        "narration": "Welcome to Recall Forge, a free, open-source practice and revision workspace. Try it in your browser without an account. This walkthrough uses disposable demonstration data."
+      },
+      {
+        "title": "Choose a relevant sample",
+        "image": "cfa-home.jpg",
+        "narration": "Choose a sample pack, then Load sample pack. Try introductory investment, technical-analysis, or financial-risk questions, alongside Cell Biology. The finance samples are original practice, not official examination questions."
+      },
+      {
+        "title": "Understand the answer",
+        "image": "cfa-feedback.jpg",
+        "narration": "In Study mode, select an answer and use Check answer. Read the explanation and open the source reference. Here, annual compounding turns ten thousand into eleven thousand and twenty-five."
+      },
+      {
+        "title": "Review the mistakes",
+        "image": "cfa-results.jpg",
+        "narration": "Submit to review your results. This demonstration intentionally includes a wrong answer and skipped questions. Retest wrong answers starts another study session focused on those unresolved questions."
+      },
+      {
+        "title": "Return for revision",
+        "image": "revision.jpg",
+        "narration": "Daily revision schedules another look. Guesses and mistakes return tomorrow. Progress records attempts and topic signals. Small samples do not establish mastery. Your study data stays in this browser."
+      },
+      {
+        "title": "Keep a portable backup",
+        "image": "settings.jpg",
+        "narration": "Download a backup before switching devices or clearing browser data. Password encryption is optional. Try the free app and explore the source code through the links below."
+      }
+    ]
+  },
+  {
+    "id": "02-quick-question-short",
+    "week": 1,
+    "short": true,
+    "title": "Try a Practice Question in 30 Seconds | RecallForge",
+    "thumbnailHeadline": "One question.\nOne explanation.",
+    "color": "#9fc5ff",
+    "playlist": "Shorts",
+    "offsetDays": 2,
+    "targetSeconds": 30,
+    "scenes": [
+      {
+        "title": "Choose a sample",
+        "image": "vertical-home.jpg",
+        "narration": "Want to try Recall Forge? Choose an introductory sample pack. No account is required."
+      },
+      {
+        "title": "See the reasoning",
+        "image": "vertical-cfa-feedback.jpg",
+        "narration": "In Study mode, select an answer, then Check answer. Read the explanation and open the source reference."
+      },
+      {
+        "title": "Try it yourself",
+        "image": "vertical-home.jpg",
+        "narration": "The browser app is free and open source. Try the demo through the link on our channel profile. These are original practice questions, not official exam content."
+      }
+    ]
+  },
+  {
+    "id": "03-cfa-fundamentals",
+    "week": 2,
+    "short": false,
+    "title": "Practice CFA Fundamentals with RecallForge",
+    "thumbnailHeadline": "CFA fundamentals\nFrom answer to understanding.",
+    "color": "#e8ba7b",
+    "playlist": "Finance Practice",
+    "offsetDays": 7,
+    "targetSeconds": 190,
+    "scenes": [
+      {
+        "title": "Start with the fundamentals",
+        "image": "cfa-home.jpg",
+        "narration": "This demonstration is for learners reviewing introductory investment concepts. Recall Forge is a practice workspace, not an official course or a substitute for your examination curriculum. Choose the C F A fundamentals demo from the sample chooser. It contains ten original questions, explanations, and public reference links."
+      },
+      {
+        "title": "Read the assumptions",
+        "image": "cfa-question.jpg",
+        "narration": "Start with the compounding question. Ten thousand earns five percent per year for two years. There are no deposits, withdrawals, fees, or taxes in this stated example. Reading those assumptions matters, because a change in cash flows or compounding frequency would change the calculation. Work out the answer before checking it."
+      },
+      {
+        "title": "Compound both years",
+        "image": "cfa-feedback.jpg",
+        "narration": "Five percent growth means multiplying by one point zero five for each year. After the first year, the value is ten thousand five hundred. The second year earns interest on that larger balance. The result is eleven thousand and twenty-five. Select that answer and use Check answer to inspect the reasoning and reference."
+      },
+      {
+        "title": "Learn from an error",
+        "image": "cfa-mistake.jpg",
+        "narration": "Now consider present value. A payment of twelve hundred and ten arrives in two years, discounted at ten percent annually. We deliberately selected eleven hundred to show the mistake workflow. That discounts only one year. Dividing by one point one twice gives one thousand today. The explanation helps locate the missing step."
+      },
+      {
+        "title": "Interpret the result honestly",
+        "image": "cfa-results.jpg",
+        "narration": "Submitting creates an answer review and topic breakdown. In this recorded demonstration, only two questions were answered and the others were skipped. The displayed score reflects that incomplete session. It is not a claim about exam performance. Review the individual reasoning rather than drawing conclusions from a tiny or intentionally incomplete sample."
+      },
+      {
+        "title": "Retest what needs work",
+        "image": "cfa-retest.jpg",
+        "narration": "Retest wrong answers creates a study session from wrong and skipped questions. Correct questions from the original attempt are excluded. The order may change because the retest shuffles its questions. This lets you focus your next pass on unresolved concepts, then check whether the reasoning now makes sense rather than merely remembering an option letter."
+      },
+      {
+        "title": "Build a repeatable routine",
+        "image": "revision.jpg",
+        "narration": "Daily revision gives saved questions another turn over time. Confident correct reviews can advance through the schedule; guesses and mistakes return sooner. Use the library to revisit the complete pack whenever needed. The other questions introduce returns, diversification, allocation, rebalancing, bond interest-rate risk, costs, and the investment time horizon."
+      },
+      {
+        "title": "Keep context with progress",
+        "image": "progress.jpg",
+        "narration": "Progress retains attempt details and topic signals. The example records here belong only to the disposable demonstration workspace. Mixed packs are not directly comparable, and a few questions do not establish mastery. Pair these signals with your own study plan and reliable reference material. Export a backup before moving to another browser or device."
+      },
+      {
+        "title": "Try the free demonstration",
+        "image": "cfa-home.jpg",
+        "narration": "Open Recall Forge using the link below, choose the C F A fundamentals demo, and try the reasoning yourself. No account is needed to use the viewer. Questions and answers stay in your local workspace. The repository is also linked for contributors. Leave a comment about which explanation or part of the study workflow would make practice more useful."
+      }
+    ]
+  },
+  {
+    "id": "04-cfa-mistake-short",
+    "week": 2,
+    "short": true,
+    "title": "Review a Wrong Answer and Understand Why | RecallForge",
+    "thumbnailHeadline": "Find the missing\ncalculation step.",
+    "color": "#e8ba7b",
+    "playlist": "Shorts",
+    "offsetDays": 9,
+    "targetSeconds": 30,
+    "scenes": [
+      {
+        "title": "Spot the missing year",
+        "image": "vertical-cfa-mistake.jpg",
+        "narration": "Present value needs both years. Twelve hundred and ten, discounted at ten percent for two years, equals one thousand today."
+      },
+      {
+        "title": "Read the explanation",
+        "image": "vertical-cfa-mistake.jpg",
+        "narration": "Selecting eleven hundred misses one discounting step. Check answer explains the error and provides a source link."
+      },
+      {
+        "title": "Practice the reasoning",
+        "image": "vertical-cfa-feedback.jpg",
+        "narration": "Try the original investment-fundamentals demo in Recall Forge. Free browser practice, with no account required. This demonstration is independent of official exam providers."
+      }
+    ]
+  },
+  {
+    "id": "05-frm-risk",
+    "week": 3,
+    "short": false,
+    "title": "Practice FRM Risk Concepts with RecallForge",
+    "thumbnailHeadline": "FRM risk concepts\nMake the assumptions explicit.",
+    "color": "#b5d3fa",
+    "playlist": "Finance Practice",
+    "offsetDays": 14,
+    "targetSeconds": 190,
+    "scenes": [
+      {
+        "title": "A focused risk demo",
+        "image": "home.jpg",
+        "narration": "This walkthrough introduces financial risk concepts using Recall Forge. Choose the F R M risk concepts demo to try ten original questions. They cover simplified credit loss, probabilities, risk categories, concentration, and model assumptions. These are introductory learning examples, not official exam questions, regulatory capital calculations, or a complete preparation course."
+      },
+      {
+        "title": "Separate the risk inputs",
+        "image": "frm-question.jpg",
+        "narration": "The first example states a two percent default probability, forty percent loss given default, and an exposure of one hundred thousand. Each input has a different meaning. Probability describes how likely default is in the model. Loss given default describes the fraction lost if default occurs. Exposure describes the amount at risk when it happens."
+      },
+      {
+        "title": "Do not confuse severity with average",
+        "image": "frm-mistake.jpg",
+        "narration": "We deliberately chose forty thousand to demonstrate a common conceptual mix-up. That is the loss conditional on default in this simplified example. Expected loss also weights that amount by the two percent default probability. Multiply zero point zero two by zero point four by one hundred thousand. The resulting expected loss is eight hundred."
+      },
+      {
+        "title": "Check the reasoning and source",
+        "image": "frm-mistake.jpg",
+        "narration": "Check answer shows the multiplication and links to the reference. Expected loss is an average under the stated model. It is not the largest possible loss, and it does not guarantee what will happen to an individual exposure. Treat the explanation as a reason to inspect your assumptions, not as a replacement for understanding the underlying risk."
+      },
+      {
+        "title": "Connect recovery and loss",
+        "image": "frm-recovery.jpg",
+        "narration": "The next example asks what remains after recovering sixty percent of exposure. With no extra costs in the stated model, forty percent remains unrecovered. That is the simplified loss-given-default fraction. Different costs, collateral assumptions, or recovery timing could require a richer calculation. This introductory question makes the simplification explicit before asking for the answer."
+      },
+      {
+        "title": "Use the review to plan another pass",
+        "image": "frm-results.jpg",
+        "narration": "The displayed result comes from a deliberately incomplete demonstration with a wrong answer and skipped questions. It separates correct, wrong, and skipped outcomes. Review the explanation for the mistake, then retest unresolved questions. A low demo score is not evidence about your ability, and a high score on ten questions would not establish examination readiness either."
+      },
+      {
+        "title": "Broaden the concepts",
+        "image": "library.jpg",
+        "narration": "The remaining questions distinguish credit, liquidity, and operational risk, and explain why a single industry can leave concentration exposure. Probability examples require stated outcomes and weights. Normal-model examples require the normal assumption. The pack also introduces why expected shortfall describes tail severity. Each question includes a public reference rather than copied examination-provider material."
+      },
+      {
+        "title": "Keep the revision loop local",
+        "image": "revision.jpg",
+        "narration": "After studying, use Daily revision to revisit saved questions. Mark your confidence honestly, especially when an answer was a guess. Correct guesses do not mean a concept is secure. Your study records remain local to this browser and site address. Download a portable backup in Settings before changing devices or clearing the browser’s stored data."
+      },
+      {
+        "title": "Try the risk practice",
+        "image": "home.jpg",
+        "narration": "The app and source repository are linked below. Select the F R M risk concepts demo and try the examples yourself. You can also import your own valid question packs using material you are allowed to use. Tell us which risk explanation needs clarification or which part of the review workflow would help your next study session."
+      }
+    ]
+  },
+  {
+    "id": "06-risk-revision-short",
+    "week": 3,
+    "short": true,
+    "title": "Turn a Risk-Calculation Mistake into Revision | RecallForge",
+    "thumbnailHeadline": "A mistake is a\nrevision starting point.",
+    "color": "#b5d3fa",
+    "playlist": "Shorts",
+    "offsetDays": 16,
+    "targetSeconds": 30,
+    "scenes": [
+      {
+        "title": "Expected is not worst",
+        "image": "vertical-frm-mistake.jpg",
+        "narration": "Two percent times forty percent times one hundred thousand equals eight hundred. Expected loss is an average, not the largest possible loss."
+      },
+      {
+        "title": "Retest unresolved questions",
+        "image": "vertical-retest.jpg",
+        "narration": "Read the explanation, submit the practice session, then choose Retest wrong answers. Wrong and skipped questions return for another pass."
+      },
+      {
+        "title": "Try the risk demo",
+        "image": "vertical-home.jpg",
+        "narration": "Try Recall Forge’s introductory risk demo. It is free and open source, with public source references and no account required."
+      }
+    ]
+  },
+  {
+    "id": "07-cmt-analysis",
+    "week": 4,
+    "short": false,
+    "title": "Practice CMT Technical Analysis with RecallForge",
+    "thumbnailHeadline": "CMT technical analysis\nUnderstand the indicator.",
+    "color": "#9fd6be",
+    "playlist": "Finance Practice",
+    "offsetDays": 21,
+    "targetSeconds": 190,
+    "scenes": [
+      {
+        "title": "Start with chart concepts",
+        "image": "home.jpg",
+        "narration": "Choose the C M T technical analysis demo in Recall Forge. It contains ten original introductory questions about moving averages, trend structure, support and resistance, momentum, and indicator limitations. This is independent practice, not official examination content or a trading recommendation. The goal is to understand a concept and its limits before moving to another question."
+      },
+      {
+        "title": "Calculate a simple average",
+        "image": "cmt-question.jpg",
+        "narration": "The first question gives closing prices of ten, twelve, and fourteen. A three-period simple moving average uses all three closes with equal weights. Add the values to get thirty-six, then divide by three. The answer is twelve. Work the calculation yourself before selecting an option, so feedback tests your reasoning rather than only your recognition."
+      },
+      {
+        "title": "Understand the rolling window",
+        "image": "cmt-feedback.jpg",
+        "narration": "Check answer shows how the average was calculated and links to the source. If the next closing price is sixteen, the latest three-period window becomes twelve, fourteen, and sixteen. Ten drops out of the calculation. The updated average is fourteen. A moving window uses the latest observations, not every value that has appeared since the beginning."
+      },
+      {
+        "title": "Watch the smoothing tradeoff",
+        "image": "cmt-question.jpg",
+        "narration": "A longer moving average generally smooths more short-term variation and reacts more slowly to recent changes. An exponential moving average instead gives more weight to recent prices. Neither approach eliminates uncertainty. Indicators describe and summarize price behavior; they do not guarantee the next move. The demo asks about those distinctions rather than promising a profitable signal."
+      },
+      {
+        "title": "Interpret momentum in context",
+        "image": "cmt-rsi.jpg",
+        "narration": "Under the traditional seventy and thirty convention, a relative strength index reading of seventy-five is described as overbought. Choose that description, then inspect the explanation. Overbought does not mean the next bar must decline. A strong trend can keep an oscillator near an extreme for a considerable time, so context remains part of the interpretation."
+      },
+      {
+        "title": "Keep the limitation beside the label",
+        "image": "cmt-rsi-feedback.jpg",
+        "narration": "The feedback states both the conventional label and its limitation. The next question asks why an oscillator can remain overbought during an upward trend. Support and resistance questions make a similar distinction: observed buying or selling areas can affect price behavior, but they are not permanent barriers that prices can never cross. Read the explanation rather than memorizing an absolute rule."
+      },
+      {
+        "title": "Review concepts instead of option letters",
+        "image": "cfa-retest.jpg",
+        "narration": "The same Recall Forge workflow supports targeted retesting across all packs. After submission, wrong and skipped questions can return in a new study session. This screen illustrates the shared retest feature using the investment pack. Keep attention on the concept, because question order or option order can change when shuffling is enabled."
+      },
+      {
+        "title": "Return with a study routine",
+        "image": "revision.jpg",
+        "narration": "Daily revision brings saved concepts back for another look. Confidence ratings help distinguish an understood answer from a guess. Progress stores detailed attempts, but a small sample cannot establish mastery. These screens contain disposable demonstration records. Your own local workspace will contain your attempts, and a portable backup lets you preserve them when moving between devices."
+      },
+      {
+        "title": "Try the technical-analysis demo",
+        "image": "home.jpg",
+        "narration": "Open the free browser app using the link below and select the C M T technical analysis demo. Each explanation includes a public source reference. Recall Forge does not run trading strategies or promise returns. The open-source repository is linked for contributors. Let us know which indicator explanation or revision step would make the practice more helpful."
+      }
+    ]
+  },
+  {
+    "id": "08-moving-average-short",
+    "week": 4,
+    "short": true,
+    "title": "Practice a Moving-Average Concept | RecallForge",
+    "thumbnailHeadline": "Three closes.\nOne simple average.",
+    "color": "#9fd6be",
+    "playlist": "Shorts",
+    "offsetDays": 23,
+    "targetSeconds": 30,
+    "scenes": [
+      {
+        "title": "Calculate before checking",
+        "image": "vertical-cmt-question.jpg",
+        "narration": "Closing prices are ten, twelve, and fourteen. Their three-period simple moving average is twelve."
+      },
+      {
+        "title": "Understand the window",
+        "image": "vertical-cmt-feedback.jpg",
+        "narration": "Check answer shows the reasoning. When a new close arrives, the window moves forward. The oldest observation drops out."
+      },
+      {
+        "title": "Try the concept demo",
+        "image": "vertical-home.jpg",
+        "narration": "Try Recall Forge’s introductory technical-analysis demo. Original practice with explanations and references, not a trading signal or official exam question."
+      }
+    ]
+  }
+]

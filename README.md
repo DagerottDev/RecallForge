@@ -93,7 +93,9 @@ No backend, API key, or external service is required to use the built viewer. np
 
 ## Getting Started
 
-The repository includes a ready-to-open [offline viewer](mcq-exam-website/index.html) and a [nine-question Cell Biology sample pack](mcq-exam-website/sample-mcq-pack.json). Node.js and Python are needed only for development or CLI validation.
+The repository includes a ready-to-open [offline viewer](mcq-exam-website/index.html), a [nine-question Cell Biology sample pack](mcq-exam-website/sample-mcq-pack.json), and ten-question introductory demos for [CFA fundamentals](mcq-exam-website/samples/cfa-fundamentals.json), [CMT technical analysis](mcq-exam-website/samples/cmt-technical-analysis.json), and [FRM risk concepts](mcq-exam-website/samples/frm-risk-concepts.json). Choose a **Sample pack**, then **Load sample pack**; all four are embedded for offline use. Node.js and Python are needed only for development or CLI validation.
+
+The finance demos are original, untimed study practice with explanations and public references. Their difficulty is inferred, not calibrated against official exams. They do not provide complete exam preparation or establish readiness, and RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association, or GARP. See the [source and review record](docs/promotion/SOURCES.md).
 
 Use [RecallForge online](https://dagerottdev.github.io/RecallForge/) or save the
 [self-contained HTML](https://dagerottdev.github.io/RecallForge/index.html) to your

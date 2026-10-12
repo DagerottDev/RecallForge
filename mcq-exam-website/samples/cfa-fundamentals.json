@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "2.0",
+  "packId": "recallforge-demo-cfa-fundamentals-v1",
+  "exam": {
+    "title": "CFA Fundamentals — Introductory Demo",
+    "subject": "Investment fundamentals",
+    "examType": "Practice",
+    "totalMarks": 10,
+    "instructions": "10 original introductory questions. One mark per correct answer; no negative marks. These are independent demonstrations, not official exam questions or a complete exam-preparation course. RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association, or GARP.",
+    "difficultyNote": "Introductory difficulty inferred from the source concepts, not calibrated against official exam questions."
+  },
+  "difficulty": "moderate",
+  "timing": {
+    "mode": "none"
+  },
+  "scoring": {
+    "mode": "question"
+  },
+  "delivery": {
+    "mode": "study",
+    "shuffleQuestions": false,
+    "shuffleOptions": false,
+    "seed": "recallforge-cfa-fundamentals-v1"
+  },
+  "source": {
+    "book": "Public educational references linked per question",
+    "chapter": "Original introductory examples; source material is not redistributed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "An investment of 10,000 earns 5% annually, compounded once per year. With no deposits, withdrawals, fees, or taxes, what is its value after two years?",
+      "options": [
+        "11,000",
+        "12,100",
+        "11,025",
+        "10,500"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Compound each year: 10,000 × 1.05 × 1.05 = 11,025. The second year earns interest on the first year’s interest.",
+      "topic": "Time value of money",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply time value of money.",
+      "sourceRefs": [
+        "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 2,
+      "question": "Using an annual discount rate of 10%, what is the present value of a certain payment of 1,210 received in two years?",
+      "options": [
+        "1,210",
+        "1,000",
+        "1,100",
+        "990"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Reverse compounding: 1,210 ÷ (1.10 × 1.10) = 1,000 today.",
+      "topic": "Time value of money",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply time value of money.",
+      "sourceRefs": [
+        "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 3,
+      "question": "An investment rises from 100 to 110 and pays a cash distribution of 5 during the holding period. Ignoring fees and taxes, what is the holding-period return?",
+      "options": [
+        "15%",
+        "5%",
+        "12%",
+        "10%"
+      ],
+      "answerIndex": 0,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Total gain is the price increase of 10 plus the distribution of 5. Divide 15 by the initial 100 to obtain 15%.",
+      "topic": "Investment returns",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply investment returns.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 4,
+      "question": "A portfolio starts with 60% in an asset returning 10% and 40% in an asset returning 5% over the same period. Without rebalancing or cash flows during that period, what is the portfolio return?",
+      "options": [
+        "9%",
+        "6%",
+        "7.5%",
+        "8%"
+      ],
+      "answerIndex": 3,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Weight each asset return by its initial allocation: 0.60 × 10% + 0.40 × 5% = 8%.",
+      "topic": "Portfolio returns",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply portfolio returns.",
+      "sourceRefs": [
+        "https://openstax.org/books/principles-finance/pages/13-5-probability-distributions"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 5,
+      "question": "Which change most directly reduces exposure to the fortunes of one company?",
+      "options": [
+        "Holding investments across several companies and sectors",
+        "Replacing one stock with a leveraged position in that stock",
+        "Selecting only the company with the highest recent return",
+        "Buying more shares of the same company"
+      ],
+      "answerIndex": 0,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Spreading holdings across companies and sectors reduces concentration in any one issuer. It does not eliminate market losses.",
+      "topic": "Diversification",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply diversification.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 6,
+      "question": "What does asset allocation describe?",
+      "options": [
+        "Buying every available investment in equal quantities",
+        "Ranking stocks by last month’s return",
+        "Choosing the lowest trading commission",
+        "Dividing a portfolio among asset categories such as stocks, bonds, and cash"
+      ],
+      "answerIndex": 3,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Asset allocation sets the mix of asset categories. The appropriate mix depends on the investor’s time horizon and risk tolerance.",
+      "topic": "Asset allocation",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply asset allocation.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 7,
+      "question": "A target allocation is 60% stocks and 40% bonds. A stock rally changes it to 70% stocks and 30% bonds. Which action restores the target allocation, ignoring taxes and costs?",
+      "options": [
+        "Keep the new allocation because markets always rise",
+        "Add only stocks",
+        "Sell some stocks and buy bonds until the portfolio returns to 60/40",
+        "Sell all bonds"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Rebalancing restores the target weights by reducing the overweight category and increasing the underweight category.",
+      "topic": "Rebalancing",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply rebalancing.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 8,
+      "question": "Market yields rise. For an existing fixed-rate bond with unchanged promised cash flows and credit quality, what generally happens to its market price?",
+      "options": [
+        "It remains fixed at face value",
+        "It falls",
+        "Its coupon rate rises automatically",
+        "It rises"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "New bonds offer higher yields, so an older bond’s fixed payments become less attractive. Its price generally falls; its fixed coupon does not reset.",
+      "topic": "Bond interest-rate risk",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply bond interest-rate risk.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 9,
+      "question": "Compare otherwise identical investments with the same gross return. What is the effect of a higher recurring fee on the investor’s net return?",
+      "options": [
+        "It changes only the quoted price, never wealth",
+        "It guarantees a better gross return",
+        "It reduces net return",
+        "It increases net return"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Fees subtract from returns and leave less money available to compound. Holding the gross return constant, a higher fee lowers the net result.",
+      "topic": "Costs and compounding",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply costs and compounding.",
+      "sourceRefs": [
+        "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 10,
+      "question": "A goal is five years away. Which statement best describes the investment time horizon?",
+      "options": [
+        "The time needed to execute a trade",
+        "The period until funds are needed for the goal",
+        "The age of the investment account",
+        "The five-year period proves stocks cannot lose money"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "The time horizon measures how long the investor expects to invest before needing the money. It informs allocation alongside risk tolerance.",
+      "topic": "Investment time horizon",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply investment time horizon.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      ],
+      "tags": [
+        "cfa",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

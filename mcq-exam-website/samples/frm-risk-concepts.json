@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "2.0",
+  "packId": "recallforge-demo-frm-risk-concepts-v1",
+  "exam": {
+    "title": "FRM Risk Concepts — Introductory Demo",
+    "subject": "Financial risk fundamentals",
+    "examType": "Practice",
+    "totalMarks": 10,
+    "instructions": "10 original introductory questions. One mark per correct answer; no negative marks. These are independent demonstrations, not official exam questions or a complete exam-preparation course. RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association, or GARP.",
+    "difficultyNote": "Introductory difficulty inferred from the source concepts, not calibrated against official exam questions."
+  },
+  "difficulty": "moderate",
+  "timing": {
+    "mode": "none"
+  },
+  "scoring": {
+    "mode": "question"
+  },
+  "delivery": {
+    "mode": "study",
+    "shuffleQuestions": false,
+    "shuffleOptions": false,
+    "seed": "recallforge-frm-risk-concepts-v1"
+  },
+  "source": {
+    "book": "Public educational references linked per question",
+    "chapter": "Original introductory examples; source material is not redistributed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "In a simplified one-year credit-loss model, default probability is 2%, loss given default is 40%, and exposure at default is 100,000. What is the expected loss amount?",
+      "options": [
+        "2,000",
+        "8,000",
+        "800",
+        "40,000"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Multiply default probability, loss fraction, and exposure: 0.02 × 0.40 × 100,000 = 800. Expected loss is an average, not the largest possible loss.",
+      "topic": "Expected credit loss",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply expected credit loss.",
+      "sourceRefs": [
+        "https://www.bis.org/committees/bcbs/basel-framework/standard/cre"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 2,
+      "question": "If a lender recovers 60% of its exposure after default, what loss fraction remains in a simplified model with no additional costs?",
+      "options": [
+        "60%",
+        "40%",
+        "100%",
+        "20%"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "The unrecovered portion is 100% − 60% = 40%. This is the simplified loss-given-default fraction.",
+      "topic": "Loss given default",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply loss given default.",
+      "sourceRefs": [
+        "https://www.bis.org/committees/bcbs/basel-framework/standard/cre"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 3,
+      "question": "A model assigns probabilities of 50%, 30%, and 20% to losses of 0, 1,000, and 5,000. What is the model’s expected loss?",
+      "options": [
+        "3,000",
+        "2,000",
+        "1,000",
+        "1,300"
+      ],
+      "answerIndex": 3,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "The probability-weighted average is 0.50 × 0 + 0.30 × 1,000 + 0.20 × 5,000 = 1,300.",
+      "topic": "Probability-weighted losses",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply probability-weighted losses.",
+      "sourceRefs": [
+        "https://openstax.org/books/principles-finance/pages/13-5-probability-distributions"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 4,
+      "question": "In a stated normal model, mean return is 6% and standard deviation is 2 percentage points. Which interval lies within one standard deviation of the mean?",
+      "options": [
+        "−2% to 2%",
+        "4% to 8%",
+        "2% to 10%",
+        "6% to 8%"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Subtract and add one standard deviation: 6% − 2 percentage points and 6% + 2 percentage points. This gives 4% to 8%.",
+      "topic": "Return dispersion",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply return dispersion.",
+      "sourceRefs": [
+        "https://openstax.org/books/principles-finance/pages/13-5-probability-distributions"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 5,
+      "question": "A bond issuer fails to make a promised interest payment. Which risk is most directly illustrated?",
+      "options": [
+        "Only reinvestment risk",
+        "Credit risk",
+        "Only inflation risk",
+        "Only interest-rate risk"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Credit risk concerns the issuer failing to meet its payment obligations. Other risks may also exist, but the missed payment directly illustrates credit risk.",
+      "topic": "Credit risk",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply credit risk.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 6,
+      "question": "An investor cannot find a buyer for a bond when cash is needed. Which risk is most directly illustrated?",
+      "options": [
+        "Call risk",
+        "Tax risk",
+        "Currency risk",
+        "Liquidity risk"
+      ],
+      "answerIndex": 3,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Liquidity risk concerns difficulty trading when desired. It is distinct from the issuer failing to pay.",
+      "topic": "Liquidity risk",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply liquidity risk.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 7,
+      "question": "A processing error causes a bank to send a payment twice. Which risk category most directly describes the event?",
+      "options": [
+        "Operational risk",
+        "Only inflation risk",
+        "A guaranteed market loss",
+        "Only interest-rate risk"
+      ],
+      "answerIndex": 0,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Operational risk includes losses from failed processes, people, systems, or external events. A duplicate-payment processing error fits this category.",
+      "topic": "Operational risk",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply operational risk.",
+      "sourceRefs": [
+        "https://www.bis.org/committees/bcbs/basel-framework/standard/ope"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 8,
+      "question": "Why can holding many stocks from only one industry leave substantial concentration risk?",
+      "options": [
+        "More than one stock always eliminates all risk",
+        "Stock returns become independent when holdings increase",
+        "Those companies can be affected by the same industry shock",
+        "Industry exposure matters only for bonds"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Multiple holdings do not guarantee broad diversification. Companies in one industry can share important risk drivers.",
+      "topic": "Concentration risk",
+      "difficulty": "moderate",
+      "cognitiveLevel": "analyze",
+      "learningObjective": "Explain or apply concentration risk.",
+      "sourceRefs": [
+        "https://www.investor.gov/introduction-investing/getting-started/asset-allocation"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 9,
+      "question": "Why did the Basel trading-book review favor expected shortfall over value-at-risk for tail-risk measurement?",
+      "options": [
+        "It better captures the severity of tail losses",
+        "It makes losses impossible",
+        "It predicts the exact worst loss",
+        "It removes the need for stress analysis"
+      ],
+      "answerIndex": 0,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Expected shortfall looks at losses in the tail rather than only a percentile threshold. It improves tail-risk description without eliminating model uncertainty.",
+      "topic": "Tail risk",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply tail risk.",
+      "sourceRefs": [
+        "https://www.bis.org/publications/201205-consultation-fundamental-review-trading-book"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 10,
+      "question": "Assume a normal model with mean 0 and standard deviation 1. Approximately what share of observations lies between −2 and +2?",
+      "options": [
+        "68%",
+        "50%",
+        "95%",
+        "100%"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "The normal-model empirical rule places approximately 95% of observations within two standard deviations. Real financial returns need not follow this model.",
+      "topic": "Model assumptions",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply model assumptions.",
+      "sourceRefs": [
+        "https://openstax.org/books/principles-finance/pages/13-5-probability-distributions"
+      ],
+      "tags": [
+        "frm",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

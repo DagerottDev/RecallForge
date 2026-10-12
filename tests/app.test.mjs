@@ -16,6 +16,27 @@ function controller(extra = {}) {
   return context;
 }
 
+test('sample chooser uses only known embedded packs and rejects unknown or unavailable samples', async () => {
+  for (const name of ['biology','cfa','cmt','frm']) {
+    const id = name === 'biology' ? 'embedded-sample' : `embedded-sample-${name}`;
+    const context = controller({ document: { getElementById: key => key === 'sample-pack' ? {value:name} : key === id ? {textContent:JSON.stringify(sample)} : null } });
+    vm.runInContext('loadPack = async (pack, label, quickStart) => ({pack, label, quickStart});', context);
+    const loaded = await vm.runInContext('loadSample()', context);
+    assert.equal(loaded.pack.exam.title, sample.exam.title);
+    assert.equal(loaded.quickStart, true);
+  }
+  const errors = [], requests = [];
+  const context = controller({ document: {getElementById: () => ({value:'../../unknown'})}, fetch: async url => { requests.push(url); return {ok:false}; }, errors });
+  vm.runInContext('showErrors = messages => errors.push(...messages);', context);
+  await vm.runInContext('loadSample()', context);
+  assert.deepEqual(requests, []);
+  assert.match(errors[0], /available sample/);
+  vm.runInContext('document.getElementById = id => id === "sample-pack" ? {value:"frm"} : null;', context);
+  await vm.runInContext('loadSample()', context);
+  assert.equal(requests[0], '../mcq-exam-website/samples/frm-risk-concepts.json');
+  assert.match(errors[1], /could not be loaded/);
+});
+
 test("source links keep quotes and markup inside escaped values", () => {
   const context = controller();
   context.question = { sourceRefs: ['https://example.com/" data-injected="yes', '<script>test</script>', "javascript:alert('test')"] };

@@ -403,12 +403,17 @@ function exportResult() {
 function exportAdaptive() { workspaceUI?.openAdaptive(state.pack,state.analytics) || download(`${slug(state.pack.exam.title)}-adaptive-request.json`, buildAdaptiveRequest(state.pack, state.analytics, 15)); }
 
 async function loadSample() {
-  const embedded = $("embedded-sample")?.textContent?.trim();
-  if (embedded && embedded !== "__SAMPLE_PACK__") {
-    try { return loadPack(JSON.parse(embedded), "embedded sample", true); } catch { /* fallback */ }
+  const sample = $("sample-pack")?.value || "biology";
+  const files = { biology: "sample-mcq-pack.json", cfa: "samples/cfa-fundamentals.json", cmt: "samples/cmt-technical-analysis.json", frm: "samples/frm-risk-concepts.json" };
+  if (!Object.hasOwn(files, sample)) return showErrors(["Choose an available sample pack."]);
+  const embedded = $(sample === "biology" ? "embedded-sample" : `embedded-sample-${sample}`)?.textContent?.trim();
+  if (embedded && !embedded.startsWith("__")) {
+    try { return await loadPack(JSON.parse(embedded), "embedded sample", true); } catch { /* fallback */ }
   }
   try {
-    const res = await fetch("../mcq-exam-website/sample-mcq-pack.json"); loadPack(await res.json(), "sample pack", true);
+    const res = await fetch(`../mcq-exam-website/${files[sample]}`);
+    if (!res.ok) throw Error("Sample unavailable");
+    await loadPack(await res.json(), "sample pack", true);
   } catch { showErrors(["Sample could not be loaded. Upload a JSON pack instead."]); }
 }
 

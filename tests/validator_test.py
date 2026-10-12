@@ -21,6 +21,15 @@ class ValidatorParityTests(unittest.TestCase):
         errors, _ = validator.validate_data(copy.deepcopy(self.sample))
         self.assertEqual(errors, [])
 
+    def test_finance_demos_have_valid_metadata_and_exact_counts(self):
+        for path in sorted((ROOT / "mcq-exam-website/samples").glob("*.json")):
+            with self.subTest(pack=path.name):
+                pack = json.loads(path.read_text(encoding="utf-8"))
+                errors, warnings = validator.validate_data(pack)
+                self.assertEqual(errors, [])
+                self.assertEqual(warnings, [])
+                self.assertEqual(len(pack["questions"]), 10)
+
     def test_boolean_id_is_rejected(self):
         pack = copy.deepcopy(self.sample)
         pack["questions"][0]["id"] = True

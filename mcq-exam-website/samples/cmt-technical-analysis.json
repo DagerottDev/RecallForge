@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "2.0",
+  "packId": "recallforge-demo-cmt-technical-analysis-v1",
+  "exam": {
+    "title": "CMT Technical Analysis — Introductory Demo",
+    "subject": "Technical analysis fundamentals",
+    "examType": "Practice",
+    "totalMarks": 10,
+    "instructions": "10 original introductory questions. One mark per correct answer; no negative marks. These are independent demonstrations, not official exam questions or a complete exam-preparation course. RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association, or GARP.",
+    "difficultyNote": "Introductory difficulty inferred from the source concepts, not calibrated against official exam questions."
+  },
+  "difficulty": "moderate",
+  "timing": {
+    "mode": "none"
+  },
+  "scoring": {
+    "mode": "question"
+  },
+  "delivery": {
+    "mode": "study",
+    "shuffleQuestions": false,
+    "shuffleOptions": false,
+    "seed": "recallforge-cmt-technical-analysis-v1"
+  },
+  "source": {
+    "book": "Public educational references linked per question",
+    "chapter": "Original introductory examples; source material is not redistributed"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Three consecutive closing prices are 10, 12, and 14. What is the three-period simple moving average of those closes?",
+      "options": [
+        "12",
+        "13",
+        "11",
+        "14"
+      ],
+      "answerIndex": 0,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Add the three closing prices and divide by three: (10 + 12 + 14) ÷ 3 = 12.",
+      "topic": "Simple moving averages",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply simple moving averages.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 2,
+      "question": "The next close is 16. For the series 10, 12, 14, 16, what is the latest three-period simple moving average?",
+      "options": [
+        "12",
+        "14",
+        "15",
+        "13"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Use only the latest three closes: (12 + 14 + 16) ÷ 3 = 14. The oldest observation, 10, drops out.",
+      "topic": "Rolling windows",
+      "difficulty": "moderate",
+      "cognitiveLevel": "apply",
+      "learningObjective": "Explain or apply rolling windows.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 3,
+      "question": "Compared with a five-period simple moving average, a fifty-period simple moving average generally does what?",
+      "options": [
+        "Smooths more short-term variation and reacts more slowly",
+        "Responds instantly to every price change",
+        "Gives all weight to the newest close",
+        "Removes all uncertainty from the signal"
+      ],
+      "answerIndex": 0,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "A longer average uses more observations, which smooths short-term fluctuations but usually increases lag.",
+      "topic": "Trend smoothing",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply trend smoothing.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/sma"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 4,
+      "question": "A chart has successive higher swing highs and higher swing lows. Which description best fits that structure?",
+      "options": [
+        "A guaranteed reversal tomorrow",
+        "An uptrend",
+        "A price series with no trend",
+        "A downtrend"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Higher highs and higher lows are a common way to describe an upward price trend. The pattern does not guarantee future gains.",
+      "topic": "Trend structure",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply trend structure.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 5,
+      "question": "In technical analysis, a support area is most commonly associated with which behavior?",
+      "options": [
+        "Selling pressure repeatedly halts advances",
+        "Buying interest may interrupt a decline",
+        "Prices can never trade below the area",
+        "Every trade executes at exactly one price"
+      ],
+      "answerIndex": 1,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Support describes an area where buying interest may counter selling. It is an observed area, not a guarantee or permanent price floor.",
+      "topic": "Support and resistance",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply support and resistance.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 6,
+      "question": "A resistance area is most commonly associated with which behavior?",
+      "options": [
+        "The company has suspended all trading",
+        "Prices are legally prevented from rising",
+        "Buying interest repeatedly halts declines",
+        "Selling pressure may interrupt an advance"
+      ],
+      "answerIndex": 3,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "Resistance describes an area where selling pressure may limit an advance. Prices can still move through it.",
+      "topic": "Support and resistance",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply support and resistance.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 7,
+      "question": "Under the traditional 70/30 RSI convention, an RSI reading of 75 is usually described as what?",
+      "options": [
+        "A certain sell signal",
+        "Oversold",
+        "Overbought",
+        "Exactly neutral"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "A reading above 70 is traditionally called overbought. This label alone does not establish when a reversal will occur.",
+      "topic": "Momentum indicators",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply momentum indicators.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 8,
+      "question": "RSI remains above 70 during a strong upward trend. Which interpretation is most defensible?",
+      "options": [
+        "RSI must be broken because this is impossible",
+        "A price decline is certain on the next bar",
+        "Momentum can remain overbought for an extended period",
+        "The asset has no remaining risk"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "RSI can stay at extreme readings during strong trends. Context matters; an overbought reading is not a precise reversal timetable.",
+      "topic": "Indicator limitations",
+      "difficulty": "moderate",
+      "cognitiveLevel": "analyze",
+      "learningObjective": "Explain or apply indicator limitations.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/RSI"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 9,
+      "question": "Compared with a simple moving average of the same period, how does an exponential moving average assign weights?",
+      "options": [
+        "It weights only the oldest observation",
+        "It uses trading volume instead of prices",
+        "It assigns equal weight to every observation in the window",
+        "It places more weight on recent observations"
+      ],
+      "answerIndex": 3,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "An EMA applies larger weights to more recent prices, generally making it more responsive than an equivalent-period SMA.",
+      "topic": "Exponential moving averages",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply exponential moving averages.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/ema"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    },
+    {
+      "id": 10,
+      "question": "A moving average drawn directly over the price chart is an example of which indicator presentation?",
+      "options": [
+        "A company balance sheet",
+        "An exchange trading restriction",
+        "An overlay",
+        "A valuation forecast"
+      ],
+      "answerIndex": 2,
+      "marks": 1,
+      "negativeMarks": 0,
+      "explanation": "An overlay appears on the price chart itself. Oscillators such as RSI are commonly displayed in a separate panel.",
+      "topic": "Chart indicators",
+      "difficulty": "easy",
+      "cognitiveLevel": "understand",
+      "learningObjective": "Explain or apply chart indicators.",
+      "sourceRefs": [
+        "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis"
+      ],
+      "tags": [
+        "cmt",
+        "introductory-demo"
+      ],
+      "confidence": 0.98
+    }
+  ]
+}

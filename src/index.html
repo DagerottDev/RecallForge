@@ -27,7 +27,11 @@
           <label class="check"><input id="shuffle-options" type="checkbox"> Shuffle options</label>
           <label>Shuffle seed<input id="shuffle-seed" placeholder="Optional deterministic seed"></label>
         </div>
-        <div class="row"><button id="load-sample-btn" class="primary">Load sample pack</button><span id="migration-note" class="muted"></span></div>
+        <div class="row wrap">
+          <label>Sample pack<select id="sample-pack" aria-describedby="sample-note"><option value="biology">Cell Biology</option><option value="cfa">CFA fundamentals demo</option><option value="cmt">CMT technical analysis demo</option><option value="frm">FRM risk concepts demo</option></select></label>
+          <button id="load-sample-btn" class="primary">Load sample pack</button><span id="migration-note" class="muted"></span>
+        </div>
+        <p id="sample-note" class="muted">Finance samples are original introductory practice, not official exam questions or complete exam preparation.</p>
         <pre id="upload-error" class="error" hidden></pre>
       </section>
 
@@ -97,6 +101,9 @@
   <div id="save-status" role="status" aria-live="polite"></div>
   <div id="timer-announcement" class="sr-only" role="status" aria-live="polite"></div>
   <script id="embedded-sample" type="application/json">__SAMPLE_PACK__</script>
+  <script id="embedded-sample-cfa" type="application/json">__CFA_SAMPLE__</script>
+  <script id="embedded-sample-cmt" type="application/json">__CMT_SAMPLE__</script>
+  <script id="embedded-sample-frm" type="application/json">__FRM_SAMPLE__</script>
   <script type="module" src="./app.js"></script>
 </body>
 </html>
