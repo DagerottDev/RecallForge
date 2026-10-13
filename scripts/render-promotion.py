@@ -29,6 +29,12 @@ SPEED = 1.10
 pipeline = None
 
 
+def logo(image, position, size):
+    mark = Image.open(ROOT / 'src/assets/branding/recallforge-master.png').convert('RGBA')
+    mark = mark.resize((size, size), Image.Resampling.LANCZOS)
+    image.paste(mark, position, mark)
+
+
 def font(size):
     face = ImageFont.truetype(str(FONT), size)
     face.set_variation_by_axes([500])
@@ -51,16 +57,13 @@ def lines(text, size, width):
 
 def artwork():
     ASSETS.mkdir(parents=True, exist_ok=True)
-    avatar = Image.new('RGB', (800,800), '#1958a4')
-    draw = ImageDraw.Draw(avatar)
-    draw.rounded_rectangle((72,72,728,728), radius=120, outline='#9fc5ff', width=5)
-    draw.text((400,390), 'RF', font=font(350), fill=WHITE, anchor='mm')
+    avatar = Image.open(ROOT / 'src/assets/branding/recallforge-master.png').convert('RGBA')
+    avatar = avatar.resize((800,800), Image.Resampling.LANCZOS)
     avatar.save(ASSETS / 'avatar.png')
     banner = Image.new('RGB', (2560,1440), INK)
     draw = ImageDraw.Draw(banner)
     draw.rectangle((0,490,2560,950), fill='#1b2635')
-    draw.rounded_rectangle((590,552,790,752), radius=36, fill='#1958a4')
-    draw.text((690,650), 'RF', font=font(114), fill=WHITE, anchor='mm')
+    logo(banner, (590,552), 200)
     draw.text((846,562), 'RecallForge', font=font(112), fill=WHITE)
     draw.text((851,706), 'Practice. Review. Remember.', font=font(56), fill='#9fc5ff')
     draw.text((851,804), 'Free & open source  ·  No account required', font=font(37), fill=MUTED)
@@ -71,8 +74,7 @@ def thumbnail(video):
     image = Image.new('RGB', (1280,720), INK)
     draw = ImageDraw.Draw(image)
     color = video['color']
-    draw.rounded_rectangle((55,45,135,125), radius=16, fill='#1958a4')
-    draw.text((95,82), 'RF', font=font(43), fill=WHITE, anchor='mm')
+    logo(image, (55,45), 80)
     draw.text((157,53), 'RecallForge', font=font(42), fill=WHITE)
     draw.text((57,157), 'QUICK TOUR' if video['week']==1 and not video['short'] else 'SHORT' if video['short'] else 'INTRODUCTORY PRACTICE', font=font(24), fill=color)
     headline = lines(video['thumbnailHeadline'], 67, 620)
@@ -90,8 +92,7 @@ def frame(video, scene, caption, step):
     image = Image.new('RGB', (1080,1920) if short else (1920,1080), INK)
     draw = ImageDraw.Draw(image)
     color = video['color']
-    draw.rounded_rectangle((40,35,118,113), radius=14, fill='#1958a4')
-    draw.text((79,73), 'RF', font=font(40), fill=WHITE, anchor='mm')
+    logo(image, (39,33), 80)
     draw.text((140,39), 'RecallForge', font=font(46), fill=WHITE)
     draw.text((140,92), 'INTRODUCTORY DEMO' if video['week']>1 else 'FREE STUDY WORKSPACE', font=font(23), fill=color)
     source = Image.open(CAPTURES / scene['image']).convert('RGB')
@@ -213,6 +214,7 @@ def render(video):
 if __name__=='__main__':
     args=argparse.ArgumentParser()
     args.add_argument('--only',help='Render one video ID from the campaign specification')
+    args.add_argument('--artwork-only',action='store_true',help='Export channel artwork and thumbnails without regenerating narration or videos')
     args=args.parse_args()
     videos=json.loads((ROOT/'docs/promotion/videos.json').read_text())
     assert len(videos)==8 and len({v['id'] for v in videos})==8
@@ -221,4 +223,7 @@ if __name__=='__main__':
     assert selected, 'Unknown video ID'
     for video in selected:
         assert video['scenes'] and all((CAPTURES/s['image']).is_file() for s in video['scenes'])
-        render(video)
+        if args.artwork_only:
+            thumbnail(video)
+        else:
+            render(video)

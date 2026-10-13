@@ -9,6 +9,7 @@
 [![Python][python-shield]][python-url]
 
 <div align="center">
+  <img src="src/assets/branding/recallforge-mark.png" width="112" height="112" alt="RecallForge logo">
   <h1>RecallForge</h1>
   <p>A local-first study workspace for question packs, exams, revision, and portable backups.</p>
   <p>
