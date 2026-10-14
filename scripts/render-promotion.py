@@ -57,8 +57,8 @@ def lines(text, size, width):
 
 def artwork():
     ASSETS.mkdir(parents=True, exist_ok=True)
-    avatar = Image.open(ROOT / 'src/assets/branding/recallforge-master.png').convert('RGBA')
-    avatar = avatar.resize((800,800), Image.Resampling.LANCZOS)
+    avatar = Image.new('RGB', (800,800), '#092753')
+    logo(avatar, (0,0), 800)
     avatar.save(ASSETS / 'avatar.png')
     banner = Image.new('RGB', (2560,1440), INK)
     draw = ImageDraw.Draw(banner)

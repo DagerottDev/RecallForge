@@ -1,6 +1,6 @@
 # RecallForge campaign publication log
 
-Prepared 2026-10-12; updated 2026-10-13. This log is evidence, not a list of assumed publications.
+Prepared 2026-10-12; updated 2026-10-14. This log is evidence, not a list of assumed publications. Dated checkpoints below are historical; the tables describe current verified status.
 
 | Item | Status | Evidence / remaining action |
 |---|---|---|
@@ -12,9 +12,9 @@ Prepared 2026-10-12; updated 2026-10-13. This log is evidence, not a list of ass
 | Kokoro narration | Eight exports generated | Local af_heart voice, speed 1.10; isolated environment, no paid provider |
 | Eight video exports | Complete | Four 1080p landscape videos and four vertical Shorts; MP4/SRT/technical validation and distinct artwork under output/promotion |
 | Channel creation | Verified 2026-10-13 | [RecallForge @RecallForgeStudy](https://www.youtube.com/@RecallForgeStudy); owner completed terms acceptance and phone verification; existing personal channel preserved |
-| Channel branding/profile/playlists | Profile published; playlists in progress | RF avatar/banner, description and app/GitHub links published; Getting Started and Shorts created |
+| Channel branding/profile/playlists | Approved logo published | Folded-R avatar, banner and public quick-tour thumbnail visually verified on 2026-10-14; app/GitHub links, description and three playlists exist |
 | First quick-tour upload/publication | Public 2026-10-13 | [Quick tour](https://www.youtube.com/watch?v=ipCjNABrAQA); processed 1080p playback, English SRT, custom thumbnail, AI label; copyright checks clear |
-| Other seven releases | Private drafts; held for logo approval | All seven transfers complete. First Short title/description/thumbnail/English captions/AI disclosure prepared; no schedule submitted. Owner requested approval of new logo before publishing it |
+| Other seven releases | Five scheduled; two drafts in progress | Videos 02–06 have authored English captions, disclosure, matching thumbnails and processed private playback checks. See release table; no future release is counted as public |
 | X channel announcement | Pending | Depends on public channel/video and verified live demos |
 | 300Hours permission | Pending | Send focused administrator request |
 | CMT Discord permission | Pending | Accessible channel, current staff rules |
@@ -30,11 +30,11 @@ Prepared 2026-10-12; updated 2026-10-13. This log is evidence, not a list of ass
 | Video ID | Playlist | Relative day | Public URL | Actual status |
 |---|---|---:|---|---|
 | 01-quick-tour | Getting Started | 0 | https://www.youtube.com/watch?v=ipCjNABrAQA | Public; verified |
-| 02-quick-question-short | Shorts | 2 | — | Private draft `AKjDQeO2Aoc`; metadata/captions prepared; held for logo approval |
-| 03-cfa-fundamentals | Finance Practice | 7 | — | Private upload draft; not released |
-| 04-cfa-mistake-short | Shorts | 9 | — | Private upload draft; not released |
-| 05-frm-risk | Finance Practice | 14 | — | Private upload draft; not released |
-| 06-risk-revision-short | Shorts | 16 | — | Private upload draft; not released |
+| 02-quick-question-short | Shorts | 2 | — | `AKjDQeO2Aoc` scheduled for 2026-10-15 09:00 IST / 03:30 UTC; not public |
+| 03-cfa-fundamentals | Finance Practice | 7 | — | `c1SQbuKnK4s` scheduled for 2026-10-20 09:00 IST / 03:30 UTC; not public |
+| 04-cfa-mistake-short | Shorts | 9 | — | `Hs-05OQUqR8` scheduled for 2026-10-22 09:00 IST / 03:30 UTC; not public |
+| 05-frm-risk | Finance Practice | 14 | — | `0pQF4cxGxtA` scheduled for 2026-10-27 09:00 IST / 03:30 UTC; not public |
+| 06-risk-revision-short | Shorts | 16 | — | `LGH_NET_A6U` scheduled for 2026-10-29 09:00 IST / 03:30 UTC; not public |
 | 07-cmt-analysis | Finance Practice | 21 | — | Private upload draft; not released |
 | 08-moving-average-short | Shorts | 23 | — | Private upload draft; not released |
 
@@ -57,3 +57,29 @@ First Short `AKjDQeO2Aoc` was saved as Private after its metadata/captions setup
 ## Explicit design approval — 2026-10-13
 
 The owner explicitly approved the displayed folded-R logo: “go ahead with the logo”. Publishing the app/README/channel branding and thumbnails is now authorized. Usage allowance reset to 0% used before resumption. Earlier rejection and reserve checkpoints above are historical.
+
+## Verified logo release and first schedule — 2026-10-13
+
+Commit `9ff409599e218a15c4548ee2ecb387b1c22364d7` is pushed. [CI and Pages](https://github.com/DagerottDev/RecallForge/actions/runs/38390057108) passed deterministic, Python, storage/workflow/offline checks and deployment. The live app header loads the embedded 256px logo; README references the same logo. YouTube publicly displays the approved R and new banner. The original quick-tour video URL remains public and unchanged.
+
+YouTube now requires advanced-feature verification for additional daily custom thumbnails. The owner has a pending verification handoff in Studio; automatic review rejected an agent attempt to advance it because the plan reserves Google verification to the owner. No verification bypass was attempted. CFA upload `c1SQbuKnK4s` is Private with correct title/description/audience, Finance Practice playlist, AI disclosure and authored English SRT. Processed playback was checked at 1920×1080. Thumbnail upload is gated by advanced-feature verification; scheduling remains pending.
+
+## Second reserve checkpoint — 2026-10-13
+
+Native Codex usage reached 82% used / 18% remaining. Pause under the owner standing reserve instruction; the full campaign remains incomplete.
+
+Verified progress: approved logo is deployed in the app and README (CI/Pages run 38390057108 passed); YouTube avatar/banner published; Getting Started, Shorts and Finance Practice playlists created; first Short AKjDQeO2Aoc privately checked at 1080×1920 and scheduled 2026-10-15 09:00 IST; CFA c1SQbuKnK4s has its authored English SRT, AI disclosure, correct metadata and Finance Practice assignment, saved Private and played at 1920×1080. The owner approval for the logo is explicit and must not be requested again.
+
+Current gate: YouTube requires owner advanced-feature verification for further daily custom thumbnails. Studio tab 8 preserves the owner handoff; tab 17 is the auxiliary content editor. Owner question is pending; do not advance verification. No new community posts or educator messages were sent during this run.
+
+Next actions after reset or reserve override: verify owner advanced-feature status; finish CFA thumbnail/schedule and the other five draft setups; check processed private playback and schedules; recheck public thumbnail/avatar propagation; update campaign assets ZIP; commit current renderer avatar-background fix and log; continue X, DEV, Show HN, community permissions, educator invitations and weekly measurement. Preserve existing published video URLs and no-LinkedIn constraint.
+
+## Branding and release continuation — 2026-10-14
+
+Native usage reserve checked before resumption: 17% used / 83% remaining. Public channel avatar, banner and quick-tour thumbnail now visibly show the approved folded-R logo. Live app loads the embedded 256×256 logo; GitHub README loads the same committed PNG. Offline build freshness passed. The opaque navy avatar avoids white corners after YouTube's circular crop; avatar/banner/eight-thumbnail dimensions passed.
+
+Normal custom-thumbnail uploads worked today for CFA, CFA Short, FRM and risk Short. No advanced verification action was taken, and owner verification completion is not inferred. CFA and CFA Short scheduled for 20 and 22 October; FRM scheduled for 27 October, all at 09:00 IST / 03:30 UTC. Short 04 played at 1080×1920, FRM at 1920×1080, with authored English tracks. Risk Short 06 (`LGH_NET_A6U`) played at 1080×1920 but Studio reported a transient save error; its final visibility is pending verification.
+
+The isolated media environment's Python symlink points to a temporary runtime that is no longer available. Existing media exports remain intact. Artwork assertions used the bundled Python runtime; narration reruns require restoring the isolated interpreter. Existing MP4s retain the earlier RF overlays; channel/page artwork uses the approved logo.
+
+Risk Short schedule independently verified in the regular editor: 29 October 2026, 09:00 IST. The stale draft window was closed after server-saved status verification. CMT thumbnail upload did not open a file chooser; a stalled Get advanced features dialog appeared. No verification action was taken. Two CMT thumbnails remain pending.
