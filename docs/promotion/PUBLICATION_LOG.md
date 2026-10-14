@@ -14,14 +14,14 @@ Prepared 2026-10-12; updated 2026-10-14. This log is evidence, not a list of ass
 | Channel creation | Verified 2026-10-13 | [RecallForge @RecallForgeStudy](https://www.youtube.com/@RecallForgeStudy); owner completed terms acceptance and phone verification; existing personal channel preserved |
 | Channel branding/profile/playlists | Approved logo published | Folded-R avatar, banner and public quick-tour thumbnail visually verified on 2026-10-14; app/GitHub links, description and three playlists exist |
 | First quick-tour upload/publication | Public 2026-10-13 | [Quick tour](https://www.youtube.com/watch?v=ipCjNABrAQA); processed 1080p playback, English SRT, custom thumbnail, AI label; copyright checks clear |
-| Other seven releases | Five scheduled; two drafts in progress | Videos 02–06 have authored English captions, disclosure, matching thumbnails and processed private playback checks. See release table; no future release is counted as public |
-| X channel announcement | Pending | Depends on public channel/video and verified live demos |
+| Other seven releases | Five scheduled; two private | Videos 02–06 have authored English captions, disclosure, matching thumbnails and processed private playback checks. See release table; no future release is counted as public |
+| X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
 | 300Hours permission | Pending | Send focused administrator request |
 | CMT Discord permission | Pending | Accessible channel, current staff rules |
 | r/CFA permission | Submitted; delivery not independently verified | Creator-disclosed permission request submitted through compose form; form cleared. Current rule prohibits unauthorized promotion and non-approved prep providers. No public post |
 | r/FRM permission | Submitted; delivery not independently verified | Permission request submitted; form cleared. Current rule prohibits blatant advertising. No public post |
-| DEV article | Draft ready | Publish through owner account after live verification |
-| Show HN | Draft ready | Check prior submissions and owner account access |
+| DEV article | Draft ready; owner sign-in needed | Public tour link added; DEV sign-in includes terms agreement, left to owner |
+| Show HN | Draft ready; owner sign-in needed | Login required; check prior submissions after owner sign-in |
 | Five educator invitations | Draft template ready | Verify relevant recipients and published contact routes |
 | Weekly measurements | Pending | Record actual metrics; unavailable is not zero |
 
@@ -35,8 +35,8 @@ Prepared 2026-10-12; updated 2026-10-14. This log is evidence, not a list of ass
 | 04-cfa-mistake-short | Shorts | 9 | — | `Hs-05OQUqR8` scheduled for 2026-10-22 09:00 IST / 03:30 UTC; not public |
 | 05-frm-risk | Finance Practice | 14 | — | `0pQF4cxGxtA` scheduled for 2026-10-27 09:00 IST / 03:30 UTC; not public |
 | 06-risk-revision-short | Shorts | 16 | — | `LGH_NET_A6U` scheduled for 2026-10-29 09:00 IST / 03:30 UTC; not public |
-| 07-cmt-analysis | Finance Practice | 21 | — | Private upload draft; not released |
-| 08-moving-average-short | Shorts | 23 | — | Private upload draft; not released |
+| 07-cmt-analysis | Finance Practice | 21 | — | `JDFkoisGfJw` Private; captions/metadata and 1080p playback checked; custom thumbnail and 2026-11-03 schedule pending |
+| 08-moving-average-short | Shorts | 23 | — | `ntNsjZtBzjM` Private; captions/metadata and vertical 1080p playback checked; custom thumbnail and 2026-11-05 schedule pending |
 
 Record public permalinks only after verifying their actual content and visibility. Record scheduled dates in Asia/Kolkata and UTC. Never interpret a private or scheduled upload as publicly published.
 
@@ -83,3 +83,11 @@ Normal custom-thumbnail uploads worked today for CFA, CFA Short, FRM and risk Sh
 The isolated media environment's Python symlink points to a temporary runtime that is no longer available. Existing media exports remain intact. Artwork assertions used the bundled Python runtime; narration reruns require restoring the isolated interpreter. Existing MP4s retain the earlier RF overlays; channel/page artwork uses the approved logo.
 
 Risk Short schedule independently verified in the regular editor: 29 October 2026, 09:00 IST. The stale draft window was closed after server-saved status verification. CMT thumbnail upload did not open a file chooser; a stalled Get advanced features dialog appeared. No verification action was taken. Two CMT thumbnails remain pending.
+
+Both CMT uploads are finalized as Private, with authored English captions, English language, AI disclosure, no paid promotion, audience selection and correct playlists. Main CMT playback checked at 1920×1080; moving-average Short at 1080×1920. Their two custom thumbnails and planned 3/5 November release schedules remain pending; no public publication is claimed.
+
+The launch ZIP was refreshed with approved branding and current records: 59 files, 29,938,020 bytes, eight MP4s, no pending-logo-approval folder, CRC checks passed. Commit `1d10fe365b4fd3b5e4c674cd4b44331c7ca27008` is remote-verified and CI/Pages run 38529499108 succeeded.
+
+Proposed daily unattended campaign automation was rejected by automatic approval review because persistent publishing and outreach were not explicitly approved. No automation was created. A specific owner choice is pending; authorized interactive campaign work continues.
+
+A tailored FinTree invitation is prepared in output/promotion/fintree-invitation.txt, using its published educator contact route. Gmail standalone composer did not expose an editable message body; one reload failed to load the site. No Send action was taken, and no educator invitation is counted as delivered. The owner private account address is intentionally omitted from this public log.

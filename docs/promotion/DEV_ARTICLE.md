@@ -42,4 +42,4 @@ The current local checks cover deterministic controller/core behavior, both pack
 
 Optional production analytics requires explicit consent and sends only fixed allowlisted events. It excludes questions, answers, scores, notes, source files and backups. Local copies do not send those events. The campaign reuses that contract and does not add campaign tracking or recordings.
 
-[Try RecallForge](https://dagerottdev.github.io/RecallForge/) or [inspect the source](https://github.com/DagerottDev/RecallForge). The RecallForge YouTube walkthrough will be linked here once its public URL is verified. I'd value feedback on the practice-to-revision loop and the tradeoffs of a browser-local workspace.
+[Try RecallForge](https://dagerottdev.github.io/RecallForge/), [inspect the source](https://github.com/DagerottDev/RecallForge), or [watch the quick tour](https://www.youtube.com/watch?v=ipCjNABrAQA). The walkthrough uses disposable demo data and AI narration generated locally with Kokoro. Which practice-to-revision step would you improve, and why?
