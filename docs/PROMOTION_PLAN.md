@@ -44,7 +44,7 @@ Descriptions start with the app and repository links. Then give the specific tut
 - r/CFA: excluded after the moderator decline. r/FRM: existing modmail delivered; await an explicit response before posting. Do not duplicate either request.
 - DEV Community: complete the signed-in owner's profile, preserve existing valid information, and publish the engineering article. Use verified project links and avoid invented background or qualifications. Check for an existing article before creating a duplicate.
 - Five educators/study-group organizers: FinTree sent on 15 October; retain the other four invitations for their relevant weekly release. Use individual relevant messages and at most one follow-up after seven days. Confirm promotional or group-sharing rules first.
-- AnalystForum and Bionic Turtle are secondary prospects. Check current access and rules; do not post advertisements in their discussions.
+- Bionic Turtle: one permission email sent to its published support contact on 15 October; await staff response before any forum post. AnalystForum: .com access unavailable on 15 October; no verified alternate contact or message. Do not post advertisements in their discussions.
 
 Daily allocation: ten minutes responding to feedback, ten minutes contributing useful discussion, ten minutes reviewing results. Spend that time on actual helpful participation; do not manufacture activity or repetitive posts. No paid ads, mass messages, Product Hunt launch, or LinkedIn activity.
 

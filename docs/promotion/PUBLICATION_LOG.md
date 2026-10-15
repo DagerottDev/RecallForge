@@ -6,7 +6,7 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 |---|---|---|
 | Three finance demos | Deployed and validated | Ten original questions each; source and arithmetic review in SOURCES.md |
 | Sample chooser and offline embedding | Local browser checks passed | Four samples, feedback, source links, navigation, saved history and deduplication |
-| App regression | Passed | 41 Node tests, 8 Python checks; analytics acceptance; 9 storage, 15 workflow checks; offline backup/PDF/expiry |
+| App regression | Passed | 42 Node tests, 8 Python checks; analytics acceptance; 9 storage, 15 workflow checks; offline backup/PDF/expiry |
 | GitHub baseline | Verified 2026-10-12 | 0 stars through public repository API |
 | Live finance-demo deployment | Verified | Commit `9b424ee30609eb235e5cda50288f7a92d55d9f6c`; [CI and Pages passed](https://github.com/DagerottDev/RecallForge/actions/runs/38239212491); live HTML matched built artifact |
 | Kokoro narration | Eight exports generated | Local af_heart voice, speed 1.10; isolated environment, no paid provider |
@@ -18,13 +18,16 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
 | X first-Short announcement | Public 2026-10-15 | [Public post](https://x.com/Rajveer761SM/status/2110686326362394931); creator disclosure, video/app links and one feedback question; sent confirmation and permalink verified |
 | 300Hours permission | Email sent; response pending | Saved Sent Mail verified 15 October; no public forum post without permission |
+| Bionic Turtle permission | Email sent; response pending | Published support contact; duplicate search clear, Message sent and saved Sent Mail verified 15 October; no public post |
+| AnalystForum prospect | Access unavailable | .com site failed in web fetch and IAB on 15 October; no verified staff route or message |
+| Search discovery | Deployed and verified | Static guide, metadata/schema, sitemap and optional llms.txt; [CI/Pages passed](https://github.com/DagerottDev/RecallForge/actions/runs/38743411450), all six live artifacts match the validated build |
 | CMT Discord permission | Declined; route excluded | Private text-only request persisted; support bot declined sharing; no public promotion |
 | r/CFA permission | Declined; route excluded | Existing moderator conversation verifies delivery and a moderator refusal. No public post and no duplicate request |
 | r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or permission yet. No public post or duplicate request |
 | DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
 | Five educator invitations | One sent; four drafts | FinTree saved Sent Mail verified 15 October; [remaining individual invitations](EDUCATOR_INVITATIONS.md) retained for relevant weekly releases |
-| Weekly measurements | Pending | Record actual metrics; unavailable is not zero |
+| Weekly measurements | Initial snapshot recorded 14 October | Local metrics record preserves displayed ranges and QA-view caveats; next weekly review due 21 October; unavailable is not zero |
 
 ## Releases
 
@@ -129,3 +132,10 @@ The owner re-enabled email outreach through the signed-in Gmail browser. No mail
 One organic forum-permission request was sent to the published 300Hours advertising contact, explicitly asking routing to the forum administrator and no paid placement. A focused duplicate search preceded sending, and the saved Sent Mail thread was verified. Permission remains pending; no public forum post was made.
 
 CMT's private support ticket accepted a text-only permission question. An earlier link-containing attempt was blocked and is not counted as delivered. After reload, the text-only request persisted. The official support bot declined promotion in CMT channels. This route is excluded; no public sharing or alternate-contact escalation is planned. Private correspondence and owner email details are not included in the public launch kit.
+
+
+### 2026-10-15 — secondary permission route and remaining release drafts
+
+One Bionic Turtle forum-permission email was sent to its published support address after a focused duplicate search returned no matching prior Send. Gmail displayed Message sent, and the saved Sent Mail thread matched the intended recipient, subject and body. Staff permission, recipient delivery and reading remain unknown. AnalystForum's .com site could not be reached; no unverified alternate domain or address was used. A targeted recent sender/RecallForge-subject search showed no FinTree or 300Hours reply. The public DEV article displayed Top comments (0); no reply was needed.
+
+Six distinct X drafts now use the actual upcoming video IDs, one concrete feedback question each, creator disclosure and app links. They remain unsent until each corresponding video is independently verified public on its planned date. No unattended automation or early release was introduced.

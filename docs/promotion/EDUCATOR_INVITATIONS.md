@@ -71,6 +71,8 @@ Rajveer — creator of RecallForge
 
 Route: the [public contact form](https://www.optuma.com/contact/) linked by [Optuma's CMT course page](https://learn.optuma.com/courses/cmt-level-1-preparation-course/). The form currently requests a phone number; do not infer or supply the owner's number. Use an independently verified public email route if available, or obtain the owner's specific permission before supplying a number. Suggested timing: after the CMT walkthrough is publicly verified.
 
+Route recheck on 15 October: [Optuma 101](https://www.optuma.com/kb/getting-started/optuma-101-getting-started/) publishes support@optuma.com, while an [older support FAQ](https://www.optuma.com/kb/optuma/troubleshooting-and-faqs/faqs/new-support-system-f.a.q) says email was replaced by tickets. Reconfirm the current accepted route before the November invitation; neither page establishes permission to post in student forums. Do not submit the phone-required contact form without the owner supplying and authorizing that detail.
+
 Subject: Feedback on an original technical-analysis practice explanation
 
 Hello Optuma education team,

@@ -10,15 +10,45 @@ Prepared 2026-10-12. **No LinkedIn activity.** These are drafts, not evidence of
    Try the app: https://dagerottdev.github.io/RecallForge/
 3. I built RecallForge. These are introductory demonstrations, not official exam questions or complete preparation. Questions, answers and progress stay local. Source code: https://github.com/DagerottDev/RecallForge
 
-## Weekly X posts
+## Remaining X posts — prepared, unsent
 
-CFA: I made a short walkthrough of compound interest, present value and mistake review in RecallForge. Original introductory questions, explanations and sources. Which explanation would you improve? [VIDEO_URL]
+Publish only after the matching scheduled video is independently verified public. Dates are Asia/Kolkata. These six drafts are not scheduled in X and do not authorize unattended runs. If a release is delayed, hold its announcement.
 
-FRM: Expected loss is an average, not the largest possible loss. This RecallForge walkthrough works through a simplified example and the revision loop. Introductory practice, independent of official providers. [VIDEO_URL]
+### 20 October — CFA walkthrough
 
-CMT: A moving average summarizes prices; it does not guarantee the next move. This RecallForge demo covers simple averages, RSI context and source-linked feedback. What would make the practice more useful? [VIDEO_URL]
+I built RecallForge. This original introductory CFA demo connects compounding practice to explanations and retests. Which step needs work?
+https://www.youtube.com/watch?v=c1SQbuKnK4s
+Free app: https://dagerottdev.github.io/RecallForge/
 
-Short: One concept, a worked explanation, and another chance to review. This is a quick demonstration of RecallForge's practice workflow: [VIDEO_URL]
+### 22 October — answer-review Short
+
+I built RecallForge to make mistakes useful. This Short shows an original introductory practice answer and its explanation. What would make the feedback clearer?
+https://www.youtube.com/shorts/Hs-05OQUqR8
+App: https://dagerottdev.github.io/RecallForge/
+
+### 27 October — FRM walkthrough
+
+I built RecallForge. Expected loss is an average, not a worst-case loss. This original introductory FRM demo keeps the assumptions visible. Which explanation needs work?
+https://www.youtube.com/watch?v=0pQF4cxGxtA
+App: https://dagerottdev.github.io/RecallForge/
+
+### 29 October — mistake-to-revision Short
+
+I built RecallForge to connect practice and revision. This original risk-concepts Short turns a mistake into another review. Would that fit your study routine?
+https://www.youtube.com/shorts/LGH_NET_A6U
+App: https://dagerottdev.github.io/RecallForge/
+
+### 3 November — CMT walkthrough
+
+I built RecallForge. A moving average summarizes prices; it cannot guarantee the next move. This original introductory CMT demo explains why. What would you clarify?
+https://www.youtube.com/watch?v=JDFkoisGfJw
+App: https://dagerottdev.github.io/RecallForge/
+
+### 5 November — technical-analysis Short
+
+I built RecallForge. Try an original introductory moving-average question, then inspect the calculation. Which explanation step helps most?
+https://www.youtube.com/shorts/ntNsjZtBzjM
+Free app: https://dagerottdev.github.io/RecallForge/
 
 ## r/CFA moderator request
 
@@ -130,3 +160,10 @@ Thank you,
 Rajveer
 
 One follow-up, at least seven days later: Just following up once on the RecallForge introductory demonstration. If it is not relevant or your group does not accept tool/resource sharing, no further action is needed and I will not follow up again.
+
+
+## Bionic Turtle permission request — sent 15 October; response pending
+
+The [official support page](https://www.bionicturtle.com/support) publishes support@bionicturtle.com. Its staff notice limits the forum to content questions; an individual email asked support to route a permission question to the appropriate forum administrator. It described the original introductory risk demo, disclosed the creator, linked only the public tour/app/source, and offered to skip sharing if unsuitable. No paid placement, proprietary questions, account or public post was requested. Saved Sent Mail verified after Gmail's Message sent confirmation. Do not resend or interpret silence as permission.
+
+AnalystForum's .com site was unreachable in both the web fetch and IAB on 15 October. No contact address was verified and no message was sent; do not substitute an unverified lookalike domain.
