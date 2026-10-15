@@ -2,6 +2,8 @@
 
 Owner direction: organic only; no LinkedIn; English; roughly 30 minutes daily for four weeks. Equal attention to learner usefulness and open-source visibility. The YouTube display name must be **RecallForge**. Preferred handles: `@RecallForge`, `@RecallForgeStudy`, then `@RecallForgeApp`, subject to availability.
 
+Owner update: keep publishing and outreach in this chat; do not create unattended campaign runs. Hacker News is excluded. Existing YouTube release schedules remain part of this plan. Complete the owner's DEV Community profile using verified public information before publishing the engineering article.
+
 ## Product and positioning
 
 Free, open-source browser practice and revision with original question packs, source-linked explanations, wrong/skipped-answer retesting, daily revision, and portable backups. No viewer account is required. Generation happens separately in a compatible AI agent, not inside the website. The three ten-question finance packs are independent introductory demonstrations, not official questions, full exam preparation, or evidence of exam readiness.
@@ -11,6 +13,7 @@ Free, open-source browser practice and revision with original question packs, so
 - Questions and review: [source record](promotion/SOURCES.md)
 - Narration, titles, scenes and upload timing: [video specification](promotion/videos.json)
 - Ready-to-adapt community posts and outreach: [publication drafts](promotion/POSTS.md)
+- Five individual educator invitations: [tailored drafts and verified contact routes](promotion/EDUCATOR_INVITATIONS.md)
 - Actual outcomes and remaining gates: [publication log](promotion/PUBLICATION_LOG.md)
 
 ## YouTube channel package
@@ -37,7 +40,7 @@ Descriptions start with the app and repository links. Then give the specific tut
 - 300Hours: ask permission before posting CFA/FRM resource discussions.
 - Official CMT Discord: ask staff about an appropriate accessible channel. Candidate-only channels may require registration or membership; do not bypass that eligibility.
 - r/CFA and r/FRM: send one relevant modmail permission request to each. Treat silence as no permission. Skip a declined promotional route and log the reason.
-- DEV Community: publish the engineering article. Show HN: one submission of the usable app, with an explanatory maker comment and supporting repository/video links. Check for an existing submission before creating a duplicate; never solicit votes.
+- DEV Community: complete the signed-in owner's profile, preserve existing valid information, and publish the engineering article. Use verified project links and avoid invented background or qualifications. Check for an existing article before creating a duplicate.
 - Five educators/study-group organizers: individual, relevant invitations through published professional contact routes. One follow-up after seven days, then stop if declined or unanswered. Confirm promotional or group-sharing rules first.
 - AnalystForum and Bionic Turtle are secondary prospects. Check current access and rules; do not post advertisements in their discussions.
 
@@ -53,13 +56,15 @@ Month-one experiment targets: eight published videos, 500 combined video views, 
 
 ## Reproducing media
 
-The isolated Python environment is `output/promotion/.venv`; no media dependency is added to package.json. Public model cache: `/private/tmp/recallforge-hf`. Kokoro 0.9.4 with voice `af_heart` is used locally. Full environment versions are saved under `output/promotion/production-requirements.txt`.
+The isolated Python environment is `output/promotion/.venv`, with its Python 3.12 runtime under `output/promotion/.python`; no media dependency is added to package.json. Use `output/promotion/.hf-cache` for downloaded public model files. Kokoro 0.9.4 with voice `af_heart` is used locally. Full environment versions are saved under `output/promotion/production-requirements.txt`.
 
 ```sh
-HF_HOME=/private/tmp/recallforge-hf HF_HUB_OFFLINE=1 output/promotion/.venv/bin/python scripts/render-promotion.py
+HF_HOME=output/promotion/.hf-cache output/promotion/.venv/bin/python scripts/render-promotion.py
 ```
 
 Use `--only <video-id>` to rerender one video. Actual browser captures live under `output/promotion/captures`. Final MP4, narration WAV, SRT, frame timing, and technical validation records are in each video's `output/promotion/<video-id>/` directory. Avatar, banner and distinct thumbnails are in `output/promotion/assets`. Do not delete those ignored media files until the uploads and retention record are verified.
+
+Existing narration is reused from `output/promotion/speech`. A new uncached sentence may require the initial public model/voice download; set `HF_HUB_OFFLINE=1` only after that model cache is populated. Use `--artwork-only` to regenerate the channel artwork and thumbnails without changing narration or video exports.
 
 ## Acceptance
 

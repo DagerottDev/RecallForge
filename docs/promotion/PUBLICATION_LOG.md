@@ -1,6 +1,6 @@
 # RecallForge campaign publication log
 
-Prepared 2026-10-12; updated 2026-10-14. This log is evidence, not a list of assumed publications. Dated checkpoints below are historical; the tables describe current verified status.
+Prepared 2026-10-12. This log is evidence, not a list of assumed publications. Dated checkpoints below are historical; the tables describe the latest verified status.
 
 | Item | Status | Evidence / remaining action |
 |---|---|---|
@@ -14,15 +14,15 @@ Prepared 2026-10-12; updated 2026-10-14. This log is evidence, not a list of ass
 | Channel creation | Verified 2026-10-13 | [RecallForge @RecallForgeStudy](https://www.youtube.com/@RecallForgeStudy); owner completed terms acceptance and phone verification; existing personal channel preserved |
 | Channel branding/profile/playlists | Approved logo published | Folded-R avatar, banner and public quick-tour thumbnail visually verified on 2026-10-14; app/GitHub links, description and three playlists exist |
 | First quick-tour upload/publication | Public 2026-10-13 | [Quick tour](https://www.youtube.com/watch?v=ipCjNABrAQA); processed 1080p playback, English SRT, custom thumbnail, AI label; copyright checks clear |
-| Other seven releases | Five scheduled; two private | Videos 02–06 have authored English captions, disclosure, matching thumbnails and processed private playback checks. See release table; no future release is counted as public |
+| Other seven releases | One public; four scheduled; two private | First Short appears in the public channel feed with matching embed metadata. Videos 03–06 remain scheduled; two CMT uploads remain private |
 | X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
 | 300Hours permission | Pending | Send focused administrator request |
 | CMT Discord permission | Pending | Accessible channel, current staff rules |
 | r/CFA permission | Submitted; delivery not independently verified | Creator-disclosed permission request submitted through compose form; form cleared. Current rule prohibits unauthorized promotion and non-approved prep providers. No public post |
 | r/FRM permission | Submitted; delivery not independently verified | Permission request submitted; form cleared. Current rule prohibits blatant advertising. No public post |
-| DEV article | Draft ready; owner sign-in needed | Public tour link added; DEV sign-in includes terms agreement, left to owner |
-| Show HN | Draft ready; owner sign-in needed | Login required; check prior submissions after owner sign-in |
-| Five educator invitations | Draft template ready | Verify relevant recipients and published contact routes |
+| DEV profile and article | Authorized; browser access pending | Owner reports sign-in complete and requests profile completion, then article publication. Current signed-in state still needs verification |
+| Show HN | Skipped by owner | No submission or further sign-in request |
+| Five educator invitations | Five tailored drafts ready; none sent | [Contact routes and individual drafts](EDUCATOR_INVITATIONS.md); FinTree, IFT, Aswini Bajaj, Optuma and AnalystPrep |
 | Weekly measurements | Pending | Record actual metrics; unavailable is not zero |
 
 ## Releases
@@ -30,7 +30,7 @@ Prepared 2026-10-12; updated 2026-10-14. This log is evidence, not a list of ass
 | Video ID | Playlist | Relative day | Public URL | Actual status |
 |---|---|---:|---|---|
 | 01-quick-tour | Getting Started | 0 | https://www.youtube.com/watch?v=ipCjNABrAQA | Public; verified |
-| 02-quick-question-short | Shorts | 2 | — | `AKjDQeO2Aoc` scheduled for 2026-10-15 09:00 IST / 03:30 UTC; not public |
+| 02-quick-question-short | Shorts | 2 | https://www.youtube.com/shorts/AKjDQeO2Aoc | Public channel feed records publication at 2026-10-15 09:00:02 IST / 03:30:02 UTC; public embed metadata matches RecallForge and the intended title |
 | 03-cfa-fundamentals | Finance Practice | 7 | — | `c1SQbuKnK4s` scheduled for 2026-10-20 09:00 IST / 03:30 UTC; not public |
 | 04-cfa-mistake-short | Shorts | 9 | — | `Hs-05OQUqR8` scheduled for 2026-10-22 09:00 IST / 03:30 UTC; not public |
 | 05-frm-risk | Finance Practice | 14 | — | `0pQF4cxGxtA` scheduled for 2026-10-27 09:00 IST / 03:30 UTC; not public |
@@ -91,3 +91,13 @@ The launch ZIP was refreshed with approved branding and current records: 59 file
 Proposed daily unattended campaign automation was rejected by automatic approval review because persistent publishing and outreach were not explicitly approved. No automation was created. A specific owner choice is pending; authorized interactive campaign work continues.
 
 A tailored FinTree invitation is prepared in output/promotion/fintree-invitation.txt, using its published educator contact route. Gmail standalone composer did not expose an editable message body; one reload failed to load the site. No Send action was taken, and no educator invitation is counted as delivered. The owner private account address is intentionally omitted from this public log.
+
+## Subsequent release verification and owner steering
+
+The owner excluded Hacker News, declined unattended campaign runs, and authorized completing the signed-in DEV profile before publishing the prepared article. Current plan/drafts now reflect those instructions. Existing YouTube schedules are retained.
+
+The first Short is present in the [public channel feed](https://www.youtube.com/feeds/videos.xml?channel_id=UCzVDEPiO_BeY4xNF3WejSNQ), with publication timestamp `2026-10-15T03:30:02+00:00`. Public YouTube embed metadata returns HTTP 200 with the intended title and RecallForge author/channel. Its [public permalink](https://www.youtube.com/shorts/AKjDQeO2Aoc) is recorded above. The campaign now has two publicly listed videos, four future schedules, and two private CMT uploads. No new browser playback or metrics check is claimed.
+
+Browser inventory returned no available browser; opening/binding the in-app browser was unavailable. The requested DEV profile tab is queued in this chat, but Computer Use also disallowed controlling the native host app. A connector search returned no relevant DEV integration. No DEV profile, article, thumbnail, message or external setting was changed in this continuation. An owner browser handoff is pending. Five educator invitations are prepared with primary-source contact routes, but none is sent or delivered.
+
+The isolated media interpreter was restored under the ignored production folder using Python 3.12.13. Kokoro 0.9.4 imports, cached narration reads, and artwork-only rendering pass. All eight video hashes and the approved logo master are unchanged. Fresh uncached speech synthesis was not repeated and may require a public model download. The live app matches the validated local distribution byte-for-byte (SHA-256 `148c183b3df7a0af99a59e7136da916ce8b47c7c8c5b8d0a2e7796d4e3ef94d1`); the public repository reports zero stars. Neither public availability nor a star count establishes learner adoption.

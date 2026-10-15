@@ -104,21 +104,7 @@ Which indicator explanation or revision step would you change?
 
 ## Show HN
 
-Title: Show HN: RecallForge — Offline question packs, revision and portable backups
-URL: https://dagerottdev.github.io/RecallForge/
-
-Maker comment:
-
-I built RecallForge as a single-user browser study workspace. The viewer runs without a backend or login; its HTML distribution embeds runtime code, fonts, its PDF worker and four samples.
-
-The useful loop is: practice a pack, inspect explanations and source references, retest wrong/skipped questions, then revisit due questions. IndexedDB keeps the workspace locally, and portable backups optionally use password encryption. Deterministic mocks and seeded shuffling make selection reproducible. The bundled question-generator skill is separate from the website and runs in the user's own compatible agent.
-
-The finance samples are original introductory examples, not official exam questions or evidence of exam readiness. Optional usage analytics needs consent and excludes private study content.
-
-Code: https://github.com/DagerottDev/RecallForge
-Walkthrough: [VIDEO_URL]
-
-I'd appreciate feedback on the offline workflow, import/backup ergonomics, and where the local-only design gets in the way. Chromium acceptance is tested; Safari/Firefox and physical touch-device coverage remain limited.
+Skipped at the owner's request. Do not submit to Hacker News or request its sign-in.
 
 ## Educator / study-group invitation
 
