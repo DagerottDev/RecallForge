@@ -14,13 +14,14 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | Channel creation | Verified 2026-10-13 | [RecallForge @RecallForgeStudy](https://www.youtube.com/@RecallForgeStudy); owner completed terms acceptance and phone verification; existing personal channel preserved |
 | Channel branding/profile/playlists | Approved logo published | Folded-R avatar, banner and public quick-tour thumbnail visually verified on 2026-10-14; app/GitHub links, description and three playlists exist |
 | First quick-tour upload/publication | Public 2026-10-13 | [Quick tour](https://www.youtube.com/watch?v=ipCjNABrAQA); processed 1080p playback, English SRT, custom thumbnail, AI label; copyright checks clear |
-| Other seven releases | One public; four scheduled; two private | First Short appears in the public channel feed with matching embed metadata. Videos 03–06 remain scheduled; two CMT uploads remain private |
+| Other seven releases | One public; six scheduled | First Short appears in the public channel feed. Videos 03–08 have matching thumbnails and saved release schedules |
 | X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
+| X first-Short announcement | Public 2026-10-15 | [Public post](https://x.com/Rajveer761SM/status/2110686326362394931); creator disclosure, video/app links and one feedback question; sent confirmation and permalink verified |
 | 300Hours permission | Pending | Send focused administrator request |
 | CMT Discord permission | Pending | Accessible channel, current staff rules |
 | r/CFA permission | Submitted; delivery not independently verified | Creator-disclosed permission request submitted through compose form; form cleared. Current rule prohibits unauthorized promotion and non-approved prep providers. No public post |
 | r/FRM permission | Submitted; delivery not independently verified | Permission request submitted; form cleared. Current rule prohibits blatant advertising. No public post |
-| DEV profile and article | Authorized; browser access pending | Owner reports sign-in complete and requests profile completion, then article publication. Current signed-in state still needs verification |
+| DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
 | Five educator invitations | Five tailored drafts ready; none sent | [Contact routes and individual drafts](EDUCATOR_INVITATIONS.md); FinTree, IFT, Aswini Bajaj, Optuma and AnalystPrep |
 | Weekly measurements | Pending | Record actual metrics; unavailable is not zero |
@@ -35,8 +36,8 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | 04-cfa-mistake-short | Shorts | 9 | — | `Hs-05OQUqR8` scheduled for 2026-10-22 09:00 IST / 03:30 UTC; not public |
 | 05-frm-risk | Finance Practice | 14 | — | `0pQF4cxGxtA` scheduled for 2026-10-27 09:00 IST / 03:30 UTC; not public |
 | 06-risk-revision-short | Shorts | 16 | — | `LGH_NET_A6U` scheduled for 2026-10-29 09:00 IST / 03:30 UTC; not public |
-| 07-cmt-analysis | Finance Practice | 21 | — | `JDFkoisGfJw` Private; captions/metadata and 1080p playback checked; custom thumbnail and 2026-11-03 schedule pending |
-| 08-moving-average-short | Shorts | 23 | — | `ntNsjZtBzjM` Private; captions/metadata and vertical 1080p playback checked; custom thumbnail and 2026-11-05 schedule pending |
+| 07-cmt-analysis | Finance Practice | 21 | — | `JDFkoisGfJw` scheduled for 2026-11-03 09:00 IST / 03:30 UTC; matching custom thumbnail saved |
+| 08-moving-average-short | Shorts | 23 | — | `ntNsjZtBzjM` scheduled for 2026-11-05 09:00 IST / 03:30 UTC; matching custom thumbnail saved |
 
 Record public permalinks only after verifying their actual content and visibility. Record scheduled dates in Asia/Kolkata and UTC. Never interpret a private or scheduled upload as publicly published.
 
@@ -101,3 +102,13 @@ The first Short is present in the [public channel feed](https://www.youtube.com/
 Browser inventory returned no available browser; opening/binding the in-app browser was unavailable. The requested DEV profile tab is queued in this chat, but Computer Use also disallowed controlling the native host app. A connector search returned no relevant DEV integration. No DEV profile, article, thumbnail, message or external setting was changed in this continuation. An owner browser handoff is pending. Five educator invitations are prepared with primary-source contact routes, but none is sent or delivered.
 
 The isolated media interpreter was restored under the ignored production folder using Python 3.12.13. Kokoro 0.9.4 imports, cached narration reads, and artwork-only rendering pass. All eight video hashes and the approved logo master are unchanged. Fresh uncached speech synthesis was not repeated and may require a public model download. The live app matches the validated local distribution byte-for-byte (SHA-256 `148c183b3df7a0af99a59e7136da916ce8b47c7c8c5b8d0a2e7796d4e3ef94d1`); the public repository reports zero stars. Neither public availability nor a star count establishes learner adoption.
+
+## Browser access restored — 2026-10-15
+
+Browser access returned. The signed-in DEV account was verified as Rajveer Sharma; its profile had zero published posts before this article. The blank bio, website, current-project and availability fields now contain verified RecallForge information. Existing name, username, personal avatar and private-email visibility were preserved. The article was previewed, published and verified at the permalink in the table. It includes the approved logo, four relevant tags, app/repository/tour links, one feedback question and the Fully Autonomous disclosure. The cover file chooser did not open, so the logo is embedded in the body instead.
+
+The normal YouTube thumbnail upload route worked for both CMT videos. The approved matching images were saved, followed by the 3 November and 5 November schedules. Reopening each saved visibility control confirmed 09:00 AM in GMT+0530. Both editors reported All changes saved. This leaves two public videos and six future schedules; scheduled uploads are not counted as public releases.
+
+The first-Short announcement was posted on the verified X account. The sent confirmation, exact post text and public permalink were checked; the earlier launch post displayed six views, which are not attributed to app usage. Screenshots are saved locally under output/promotion.
+
+A focused FinTree sent-mail search displayed Error Code 14, making the empty result unreliable. Gmail's Compose action then remained at Loading without exposing an editable message. No Send action occurred and no educator invitation is counted as delivered. Community permissions and educator outreach remain outstanding.

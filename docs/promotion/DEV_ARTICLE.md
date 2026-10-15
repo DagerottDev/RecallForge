@@ -1,5 +1,7 @@
 # Building RecallForge: an offline study workspace with source-linked practice
 
+<img src="https://raw.githubusercontent.com/DagerottDev/RecallForge/main/src/assets/branding/recallforge-mark.png" alt="RecallForge folded-page R logo" width="128" height="128">
+
 I built [RecallForge](https://dagerottdev.github.io/RecallForge/) to make the loop between practice, mistake review and revision easier to repeat. It is free and open source. You can try the browser viewer without an account, and its working study data stays in your local browser.
 
 The new introductory samples cover investment fundamentals, technical analysis and financial risk, alongside the original Cell Biology sample. Each finance pack contains ten original questions with explanations and public reference links. These are demonstrations of the workspace, not official exam questions or complete preparation courses.
