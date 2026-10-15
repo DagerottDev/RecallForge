@@ -1,5 +1,7 @@
 # Individual educator invitations
 
+Deferred by the owner on 2026-10-15: no Gmail installation or email outreach yet. Keep these drafts; do not send or resume this approach until the owner requests it.
+
 These five tailored drafts are unsent. Send individually during the campaign, after checking the publication log for duplicates. Use the relevant public tour; do not share a private or scheduled video. Count an invitation only after verifying delivery. One follow-up after at least seven days is the campaign limit.
 
 ## 1. FinTree

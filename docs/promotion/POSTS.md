@@ -22,6 +22,8 @@ Short: One concept, a worked explanation, and another chance to review. This is 
 
 ## r/CFA moderator request
 
+Already delivered and declined. Retained for the record; do not resend or publish in r/CFA.
+
 Subject: Permission request: free open-source practice workspace with original introductory demo
 
 Hello moderators, I built RecallForge, a free open-source browser workspace for question packs, explanations, wrong-answer retesting and daily revision. I understand that app self-promotion is generally removed here, so I am asking before posting.
@@ -33,6 +35,8 @@ Source: https://github.com/DagerottDev/RecallForge
 Walkthrough: [VIDEO_URL]
 
 ## r/FRM moderator request
+
+Delivery verified in the current moderator conversation. No reply or permission yet; do not resend or publish.
 
 Subject: Permission request: original risk-concepts demo in a free open-source study tool
 
@@ -56,7 +60,7 @@ App: https://dagerottdev.github.io/RecallForge/
 Source: https://github.com/DagerottDev/RecallForge
 Walkthrough: [VIDEO_URL]
 
-## Approved CFA/300Hours post
+## 300Hours draft — administrator permission required
 
 Title: Free original fundamentals practice with explanations and a mistake-review workflow
 
@@ -70,7 +74,7 @@ Code: https://github.com/DagerottDev/RecallForge
 
 Which explanation or review step would make this more useful for your study routine?
 
-## Approved FRM post
+## FRM draft — moderator permission required
 
 Title: A free original risk-concepts demo: expected loss, assumptions and revision
 
@@ -91,7 +95,7 @@ Hello, I built RecallForge, a free open-source browser practice workspace. I hav
 App: https://dagerottdev.github.io/RecallForge/
 Repository: https://github.com/DagerottDev/RecallForge
 
-## Approved CMT community post
+## CMT community draft — staff permission required
 
 I built RecallForge, a free open-source study workspace. Here is a short demonstration using original introductory moving-average and RSI questions: [VIDEO_URL]
 
@@ -107,6 +111,8 @@ Which indicator explanation or revision step would you change?
 Skipped at the owner's request. Do not submit to Hacker News or request its sign-in.
 
 ## Educator / study-group invitation
+
+Email approach deferred by the owner. Keep as an unsent draft.
 
 Subject: Could an original free practice demo be useful to your study group?
 

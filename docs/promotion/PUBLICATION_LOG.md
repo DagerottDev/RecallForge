@@ -12,18 +12,18 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | Kokoro narration | Eight exports generated | Local af_heart voice, speed 1.10; isolated environment, no paid provider |
 | Eight video exports | Complete | Four 1080p landscape videos and four vertical Shorts; MP4/SRT/technical validation and distinct artwork under output/promotion |
 | Channel creation | Verified 2026-10-13 | [RecallForge @RecallForgeStudy](https://www.youtube.com/@RecallForgeStudy); owner completed terms acceptance and phone verification; existing personal channel preserved |
-| Channel branding/profile/playlists | Approved logo published | Folded-R avatar, banner and public quick-tour thumbnail visually verified on 2026-10-14; app/GitHub links, description and three playlists exist |
+| Channel branding/profile/playlists | Approved logo and Home tab published | Folded-R avatar/banner and app/GitHub links verified. Home tab enabled on 2026-10-15 with the public quick tour as channel trailer; public homepage checked |
 | First quick-tour upload/publication | Public 2026-10-13 | [Quick tour](https://www.youtube.com/watch?v=ipCjNABrAQA); processed 1080p playback, English SRT, custom thumbnail, AI label; copyright checks clear |
 | Other seven releases | One public; six scheduled | First Short appears in the public channel feed. Videos 03–08 have matching thumbnails and saved release schedules |
 | X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
 | X first-Short announcement | Public 2026-10-15 | [Public post](https://x.com/Rajveer761SM/status/2110686326362394931); creator disclosure, video/app links and one feedback question; sent confirmation and permalink verified |
-| 300Hours permission | Pending | Send focused administrator request |
-| CMT Discord permission | Pending | Accessible channel, current staff rules |
-| r/CFA permission | Submitted; delivery not independently verified | Creator-disclosed permission request submitted through compose form; form cleared. Current rule prohibits unauthorized promotion and non-approved prep providers. No public post |
-| r/FRM permission | Submitted; delivery not independently verified | Permission request submitted; form cleared. Current rule prohibits blatant advertising. No public post |
+| 300Hours permission | Pending; on-platform access needed | Forum is signed out. Email approach deferred by the owner; no request sent through email |
+| CMT Discord permission | Owner sign-in pending | Official invite opens the existing-account login flow; no candidate eligibility or account data invented |
+| r/CFA permission | Declined; route excluded | Existing moderator conversation verifies delivery and a moderator refusal. No public post and no duplicate request |
+| r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or permission yet. No public post or duplicate request |
 | DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
-| Five educator invitations | Five tailored drafts ready; none sent | [Contact routes and individual drafts](EDUCATOR_INVITATIONS.md); FinTree, IFT, Aswini Bajaj, Optuma and AnalystPrep |
+| Five educator invitations | Deferred by owner; none sent | [Contact routes and individual drafts](EDUCATOR_INVITATIONS.md) retained; no Gmail installation or email outreach yet |
 | Weekly measurements | Pending | Record actual metrics; unavailable is not zero |
 
 ## Releases
@@ -112,3 +112,11 @@ The normal YouTube thumbnail upload route worked for both CMT videos. The approv
 The first-Short announcement was posted on the verified X account. The sent confirmation, exact post text and public permalink were checked; the earlier launch post displayed six views, which are not attributed to app usage. Screenshots are saved locally under output/promotion.
 
 A focused FinTree sent-mail search displayed Error Code 14, making the empty result unreliable. Gmail's Compose action then remained at Loading without exposing an editable message. No Send action occurred and no educator invitation is counted as delivered. Community permissions and educator outreach remain outstanding.
+
+## On-platform permissions and revised outreach scope — 2026-10-15
+
+The native five-hour allowance reset and browser access remained available. Reddit's current chat interface shows the original two moderator conversations. The r/CFA moderators declined sharing; that community is excluded. The r/FRM conversation contains the complete sent request with no response yet. No duplicate message or public subreddit promotion was sent.
+
+The owner deferred Gmail installation and the email approach. No mail integration was installed or connected, no email was sent, and the Gmail tab was closed. Prepared educator drafts are retained for later. The 300Hours forum is signed out; CMT's official Discord invitation requires owner login. The Discord login page is prepared for the owner; no account, date of birth, examination eligibility or terms acceptance was supplied.
+
+The channel Home tab was disabled. It is now enabled with the verified public quick tour as the trailer for viewers who have not subscribed. Studio's saved state and the public channel homepage both show that video. Existing uploads and playlist sections were preserved. The owner is completing Discord login; no further Discord interaction should occur until the owner confirms completion.
