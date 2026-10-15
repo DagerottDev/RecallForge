@@ -15,6 +15,7 @@
   <p>
     <a href="docs/ARCHITECTURE.md">Explore the docs</a>
     · <a href="https://dagerottdev.github.io/RecallForge/">Open RecallForge</a>
+    · <a href="https://dagerottdev.github.io/RecallForge/about.html">Product guide and FAQ</a>
     · <a href="https://github.com/DagerottDev/RecallForge/issues">Report a bug</a>
     · <a href="https://github.com/DagerottDev/RecallForge/issues">Request a feature</a>
   </p>

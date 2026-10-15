@@ -28,8 +28,18 @@ const output = sampleTemplate.replace('<!doctype html>', () => `<!doctype html>\
   .replaceAll('./assets/branding/recallforge-mark.png', `data:image/png;base64,${brandIcon}`)
   .replace('__SAMPLE_PACK__', () => safeScript(JSON.stringify(JSON.parse(sampleRaw))))
   .replace('<script type="module" src="./app.js"></script>', () => `<script>\n${safeScript(`globalThis.__EXAM_PDF_WORKER__=${JSON.stringify(worker)};\n${bundle.outputFiles[0].text}`)}\n</script>`);
-const target = path.join(root, 'mcq-exam-website/index.html');
-if (process.argv.includes('--check')) {
-  if ((await readFile(target, 'utf8').catch(() => '')) !== output) { console.error('Offline distribution is stale. Run npm run build.'); process.exit(1); }
-  console.log('Single-file distribution is up to date.');
-} else { await writeFile(target, output); console.log(`Built offline viewer (${Buffer.byteLength(output)} bytes)`); }
+const artifacts = [
+  ['index.html', Buffer.from(output)],
+  ...await Promise.all(['about.html', 'llms.txt', 'sitemap.xml', 'styles.css'].map(async file => [file, await readFile(path.join(root, 'src', file))])),
+  ['recallforge.png', await readFile(path.join(root, 'src/assets/branding/recallforge-mark.png'))],
+];
+const checking = process.argv.includes('--check');
+const stale = [];
+for (const [file, bytes] of artifacts) {
+  const target = path.join(root, 'mcq-exam-website', file);
+  if (checking) {
+    if (!(await readFile(target).catch(() => Buffer.alloc(0))).equals(bytes)) stale.push(file);
+  } else await writeFile(target, bytes);
+}
+if (stale.length) { console.error(`Distribution is stale (${stale.join(', ')}). Run npm run build.`); process.exit(1); }
+console.log(checking ? 'Offline viewer and public discovery files are up to date.' : `Built offline viewer (${Buffer.byteLength(output)} bytes) and public discovery files.`);

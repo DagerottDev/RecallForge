@@ -1,8 +1,8 @@
 # Individual educator invitations
 
-Deferred by the owner on 2026-10-15: no Gmail installation or email outreach yet. Keep these drafts; do not send or resume this approach until the owner requests it.
+Email re-enabled by the owner on 2026-10-15 through the signed-in Gmail browser. No Gmail integration is installed or connected.
 
-These five tailored drafts are unsent. Send individually during the campaign, after checking the publication log for duplicates. Use the relevant public tour; do not share a private or scheduled video. Count an invitation only after verifying delivery. One follow-up after at least seven days is the campaign limit.
+FinTree is sent; the other four tailored drafts remain unsent. Send individually during the campaign, after checking the publication log for duplicates. Use the relevant public tour; do not share a private or scheduled video. Count an invitation only after verifying saved Sent Mail; this does not establish recipient delivery or reading. One follow-up after at least seven days is the campaign limit.
 
 ## 1. FinTree
 
@@ -111,4 +111,4 @@ Rajveer — creator of RecallForge
 
 ## Delivery record
 
-No invitation above has been sent or delivered. The earlier Gmail attempt only populated a subject before the message-body editor failed to load. Public contact pages can contain static success text; that text alone is not delivery evidence.
+FinTree was sent on 15 October 2026. Gmail showed Message sent, and the saved Sent Mail message matched the intended recipient, subject and body. A focused sent-mail search showed no matching prior invitation before sending. Recipient delivery, reading and feedback remain unknown. Do not follow up before 22 October. The remaining four invitations are drafts for later campaign weeks.

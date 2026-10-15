@@ -62,7 +62,7 @@ jobs:
       - name: Publish generated distribution back to branch
         if: github.event_name == 'push'
         run: |
-          git add mcq-exam-website/index.html
+          git add mcq-exam-website/index.html mcq-exam-website/about.html mcq-exam-website/llms.txt mcq-exam-website/sitemap.xml mcq-exam-website/styles.css mcq-exam-website/recallforge.png
           if git diff --cached --quiet; then
             echo "Distribution already up to date"
             exit 0

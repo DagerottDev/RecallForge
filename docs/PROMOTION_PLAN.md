@@ -4,7 +4,7 @@ Owner direction: organic only; no LinkedIn; English; roughly 30 minutes daily fo
 
 Owner update: keep publishing and outreach in this chat; do not create unattended campaign runs. Hacker News is excluded. Existing YouTube release schedules remain part of this plan. Complete the owner's DEV Community profile using verified public information before publishing the engineering article.
 
-Owner update on 2026-10-15: defer Gmail installation and all email outreach. Retain email drafts for later; do not send them or request a mail integration again unless the owner reopens that approach. Continue through permitted on-platform routes. r/CFA moderators declined sharing, so that route is excluded. The r/FRM request is delivered and awaiting a response; silence is not permission.
+Owner update on 2026-10-15: email outreach is re-enabled through the signed-in Gmail browser. Do not install a Gmail integration. Use individual relevant messages, check for duplicates, and verify saved Sent Mail. r/CFA moderators declined sharing, so that route is excluded. The r/FRM request is delivered and awaiting a response; silence is not permission.
 
 ## Product and positioning
 
@@ -15,7 +15,7 @@ Free, open-source browser practice and revision with original question packs, so
 - Questions and review: [source record](promotion/SOURCES.md)
 - Narration, titles, scenes and upload timing: [video specification](promotion/videos.json)
 - Ready-to-adapt community posts and outreach: [publication drafts](promotion/POSTS.md)
-- Five individual educator invitations, currently deferred: [tailored drafts and verified contact routes](promotion/EDUCATOR_INVITATIONS.md)
+- Five individual educator invitations, one sent: [tailored drafts and verified contact routes](promotion/EDUCATOR_INVITATIONS.md)
 - Actual outcomes and remaining gates: [publication log](promotion/PUBLICATION_LOG.md)
 
 ## YouTube channel package
@@ -40,10 +40,10 @@ Descriptions start with the app and repository links. Then give the specific tut
 
 - X: announce the channel and app demos after the first video is public; share each weekly tutorial and selected Shorts.
 - 300Hours: ask permission before posting CFA/FRM resource discussions.
-- Official CMT Discord: ask staff about an appropriate accessible channel. Candidate-only channels may require registration or membership; do not bypass that eligibility.
+- Official CMT Discord: excluded after its support bot declined promotion on 15 October. Do not post publicly or seek alternate staff contacts to bypass that decision.
 - r/CFA: excluded after the moderator decline. r/FRM: existing modmail delivered; await an explicit response before posting. Do not duplicate either request.
 - DEV Community: complete the signed-in owner's profile, preserve existing valid information, and publish the engineering article. Use verified project links and avoid invented background or qualifications. Check for an existing article before creating a duplicate.
-- Five educators/study-group organizers: retain the prepared invitations; email delivery is deferred by the owner. Do not replace it with unsolicited messages on other platforms without checking the intended recipient and relevance. If resumed, use individual relevant invitations and at most one follow-up after seven days. Confirm promotional or group-sharing rules first.
+- Five educators/study-group organizers: FinTree sent on 15 October; retain the other four invitations for their relevant weekly release. Use individual relevant messages and at most one follow-up after seven days. Confirm promotional or group-sharing rules first.
 - AnalystForum and Bionic Turtle are secondary prospects. Check current access and rules; do not post advertisements in their discussions.
 
 Daily allocation: ten minutes responding to feedback, ten minutes contributing useful discussion, ten minutes reviewing results. Spend that time on actual helpful participation; do not manufacture activity or repetitive posts. No paid ads, mass messages, Product Hunt launch, or LinkedIn activity.

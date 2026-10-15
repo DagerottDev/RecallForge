@@ -1,0 +1,39 @@
+# RecallForge
+
+> Free, open-source, local-first browser study workspace for original question packs, source-linked explanations, wrong-answer retesting, daily revision and portable backups.
+
+## Start here
+
+- [Browser app](https://dagerottdev.github.io/RecallForge/): no viewer account, backend or API key required.
+- [Product guide, sample packs and FAQ](https://dagerottdev.github.io/RecallForge/about.html): a static HTML description readable without JavaScript.
+- [Source code and documentation](https://github.com/DagerottDev/RecallForge): MIT-licensed JavaScript/HTML/CSS app and question-generator skill.
+- [Video walkthroughs](https://www.youtube.com/@RecallForgeStudy): actual app demonstrations with locally generated AI narration and captions.
+
+## What it does
+
+Import or author schema-valid JSON question packs. Use Study mode for answer feedback and Exam mode for explicit scoring/timing rules. Review explanations and references, retest wrong/skipped answers, and return to due questions through daily revision. Attach local text, images and PDFs. Export a full workspace backup to move local source files, packs and history between devices; optional password encryption protects the exported file.
+
+## Original samples
+
+- [Cell Biology](https://dagerottdev.github.io/RecallForge/sample-mcq-pack.json): nine questions.
+- [CFA fundamentals demo](https://dagerottdev.github.io/RecallForge/samples/cfa-fundamentals.json): ten introductory investment questions.
+- [FRM risk concepts demo](https://dagerottdev.github.io/RecallForge/samples/frm-risk-concepts.json): ten introductory risk questions.
+- [CMT technical analysis demo](https://dagerottdev.github.io/RecallForge/samples/cmt-technical-analysis.json): ten introductory technical-analysis questions.
+
+Choose a Sample pack in the app, then Load sample pack. All four samples are embedded in the downloadable single-file viewer.
+
+## Boundaries
+
+Finance samples use original questions with explanations and public references. They are not official exam content, complete preparation courses or evidence of exam readiness. RecallForge is independent of CFA Institute, CMT Association and GARP.
+
+Study data remains in the browser workspace. Optional production analytics requires consent and excludes study content, scores, notes, files and backups. There is no automatic cloud sync. Export a backup before clearing browser data or changing devices.
+
+Question generation runs separately in a compatible AI agent with the learner's own reference material; the website does not call an AI service. A chosen AI provider may have its own costs. Chromium is tested; Safari, Firefox and physical touch-device coverage remain unverified.
+
+## Further reading
+
+- [README](https://github.com/DagerottDev/RecallForge/blob/main/README.md)
+- [Architecture](https://github.com/DagerottDev/RecallForge/blob/main/docs/ARCHITECTURE.md)
+- [Verification report](https://github.com/DagerottDev/RecallForge/blob/main/docs/E2E_REPORT.md)
+- [Sample source and review record](https://github.com/DagerottDev/RecallForge/blob/main/docs/promotion/SOURCES.md)
+- [MIT license](https://github.com/DagerottDev/RecallForge/blob/main/LICENSE)

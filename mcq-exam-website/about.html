@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About RecallForge — Offline Practice, Finance Demos and FAQ</title>
+  <meta name="description" content="How RecallForge works: free question packs, explanations, mistake review, daily revision, offline use and portable backups. Explore original CFA, CMT, FRM and biology samples.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://dagerottdev.github.io/RecallForge/about.html">
+  <link rel="icon" type="image/png" href="./recallforge.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="sitemap" type="application/xml" href="./sitemap.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About RecallForge — Free Practice and Revision">
+  <meta property="og:description" content="A practical guide to original question samples, explanations, retesting, revision and local study data.">
+  <meta property="og:url" content="https://dagerottdev.github.io/RecallForge/about.html">
+  <meta property="og:image" content="https://dagerottdev.github.io/RecallForge/recallforge.png">
+  <meta property="og:image:alt" content="RecallForge folded-page R logo">
+  <meta name="twitter:card" content="summary">
+  <style>
+    .guide { max-width:76ch; }
+    .guide header { margin-bottom:32px; }
+    .guide h1 { font-size:clamp(1.8rem,4vw,2.5rem); line-height:1.18; text-wrap:balance; }
+    .guide h2 { margin-top:40px; }
+    .guide h3 { margin-top:24px; }
+    .guide .brand { margin-bottom:28px; }
+    .guide nav { display:flex; flex-wrap:wrap; gap:8px 24px; align-items:center; }
+    .guide nav a { display:inline-flex; align-items:center; min-height:44px; }
+    .guide .button { padding:10px 18px; border-radius:8px; text-decoration:none; }
+    .guide li { margin:10px 0; }
+    .guide a { text-underline-offset:3px; overflow-wrap:anywhere; }
+    .guide footer { border-top:1px solid var(--line); margin-top:40px; padding-top:24px; }
+    .skip-link { position:absolute; top:-80px; left:16px; padding:12px; background:var(--panel); }
+    .skip-link:focus { top:8px; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "url": "https://dagerottdev.github.io/RecallForge/about.html",
+    "mainEntity": [
+      {"@type":"Question","name":"Is RecallForge free?","acceptedAnswer":{"@type":"Answer","text":"Yes. The browser viewer and source code are free and MIT-licensed. No viewer account or API key is required. Optional donations do not unlock features. A separate AI provider used to generate packs may have its own costs."}},
+      {"@type":"Question","name":"Can I use RecallForge offline?","acceptedAnswer":{"@type":"Answer","text":"Yes. Download the built index.html file and open it in a modern browser with JavaScript enabled. Its runtime, fonts, PDF worker and four sample packs are embedded. External reference websites and video links still need the internet."}},
+      {"@type":"Question","name":"Are the finance samples official exam questions?","acceptedAnswer":{"@type":"Answer","text":"No. Each CFA, CMT and FRM sample contains ten original introductory questions with explanations and public references. They are not complete preparation courses or evidence of exam readiness. RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association or GARP."}},
+      {"@type":"Question","name":"Where is my study data stored?","acceptedAnswer":{"@type":"Answer","text":"Questions, source files, attempts and revision data stay in your browser workspace. Optional production analytics requires consent and excludes study content and scores. Export a full backup before clearing browser data or changing devices; there is no automatic cloud sync."}},
+      {"@type":"Question","name":"Does the website generate questions with AI?","acceptedAnswer":{"@type":"Answer","text":"No. Import a schema-valid question pack or use the built-in authoring tools. The optional source-grounded MCQ generator runs separately in a compatible AI agent with your reference material."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <main class="shell guide" id="content">
+    <header>
+      <a class="brand" href="./" aria-label="Open RecallForge"><img class="brand-mark" src="./recallforge.png" alt="" width="56" height="56"><strong>RecallForge</strong></a>
+      <h1>Free practice questions and revision, in your browser.</h1>
+      <p>RecallForge is an open-source, local-first study workspace. Import a question pack, work through its questions, inspect source-linked explanations, then revisit mistakes through retesting and daily revision.</p>
+      <nav aria-label="Get started"><a class="button primary" href="./">Open RecallForge</a><a href="https://www.youtube.com/watch?v=ipCjNABrAQA">Watch the quick tour</a><a href="https://github.com/DagerottDev/RecallForge">Source code</a></nav>
+    </header>
+    <section aria-labelledby="workflow">
+      <h2 id="workflow">From a question to a useful next review</h2>
+      <ol>
+        <li><strong>Choose your material.</strong> Open the app, choose a sample pack, or import your own validated JSON pack. The Library also supports creating and editing packs.</li>
+        <li><strong>Practice and understand.</strong> Study mode provides answer feedback and explanations. Exam mode uses the pack's scoring and timing rules.</li>
+        <li><strong>Return to mistakes.</strong> Retest wrong or skipped answers, record confidence and mistake reasons, and work through due questions in daily revision.</li>
+        <li><strong>Keep your work portable.</strong> Export a full workspace backup to move packs, source files and history between devices. Optional password encryption protects the exported backup file.</li>
+      </ol>
+    </section>
+    <section aria-labelledby="samples">
+      <h2 id="samples">Try an original sample pack</h2>
+      <p>In the app, choose a <strong>Sample pack</strong>, then select <strong>Load sample pack</strong>. All four samples are embedded in the offline viewer.</p>
+      <ul>
+        <li><a href="./sample-mcq-pack.json">Cell Biology</a>: nine sample questions for exploring the study and exam workflow.</li>
+        <li><a href="./samples/cfa-fundamentals.json">CFA fundamentals demo</a>: ten introductory questions on compounding, present value, portfolio returns and diversification.</li>
+        <li><a href="./samples/frm-risk-concepts.json">FRM risk concepts demo</a>: ten introductory questions on simplified expected loss, probability, risk categories and assumptions.</li>
+        <li><a href="./samples/cmt-technical-analysis.json">CMT technical analysis demo</a>: ten introductory questions on moving averages, support and resistance, RSI context and indicator limitations.</li>
+      </ul>
+      <p>These are original demonstrations, not official exam questions, complete preparation courses or evidence of exam readiness. RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association or GARP.</p>
+    </section>
+    <section aria-labelledby="faq">
+      <h2 id="faq">Questions about RecallForge</h2>
+      <h3>Is RecallForge free?</h3>
+      <p>Yes. The browser viewer and source code are free and MIT-licensed. No viewer account or API key is required. Optional donations do not unlock features. A separate AI provider used to generate packs may have its own costs.</p>
+      <h3>Can I use RecallForge offline?</h3>
+      <p>Yes. <a href="https://github.com/DagerottDev/RecallForge/raw/refs/heads/main/mcq-exam-website/index.html">Download the built index.html file</a> and open it in a modern browser with JavaScript enabled. Its runtime, fonts, PDF worker and four sample packs are embedded. External reference websites and video links still need the internet.</p>
+      <h3>Are the finance samples official exam questions?</h3>
+      <p>No. Each CFA, CMT and FRM sample contains ten original introductory questions with explanations and public references. They are not complete preparation courses or evidence of exam readiness. RecallForge is not affiliated with or endorsed by CFA Institute, CMT Association or GARP.</p>
+      <h3>Where is my study data stored?</h3>
+      <p>Questions, source files, attempts and revision data stay in your browser workspace. Optional production analytics requires consent and excludes study content and scores. Export a full backup before clearing browser data or changing devices; there is no automatic cloud sync.</p>
+      <h3>Does the website generate questions with AI?</h3>
+      <p>No. Import a schema-valid question pack or use the built-in authoring tools. The optional <a href="https://github.com/DagerottDev/RecallForge/tree/main/.agents/skills/mcq-pack-generator">source-grounded MCQ generator</a> runs separately in a compatible AI agent with your reference material.</p>
+      <p>Chromium is the tested browser. Safari, Firefox and physical touch-device coverage remain unverified. Mixed-pack scores and small topic samples do not establish mastery.</p>
+    </section>
+    <footer>
+      <nav aria-label="Project resources"><a href="./">Open the app</a><a href="https://github.com/DagerottDev/RecallForge">GitHub repository</a><a href="https://www.youtube.com/@RecallForgeStudy">Video walkthroughs</a><a href="./llms.txt">Plain-text project guide</a></nav>
+      <p class="muted">Created by Rajveer Sharma. Free and open source under the <a href="https://github.com/DagerottDev/RecallForge/blob/main/LICENSE">MIT license</a>.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -17,13 +17,13 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | Other seven releases | One public; six scheduled | First Short appears in the public channel feed. Videos 03–08 have matching thumbnails and saved release schedules |
 | X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
 | X first-Short announcement | Public 2026-10-15 | [Public post](https://x.com/Rajveer761SM/status/2110686326362394931); creator disclosure, video/app links and one feedback question; sent confirmation and permalink verified |
-| 300Hours permission | Pending; on-platform access needed | Forum is signed out. Email approach deferred by the owner; no request sent through email |
-| CMT Discord permission | Owner sign-in pending | Official invite opens the existing-account login flow; no candidate eligibility or account data invented |
+| 300Hours permission | Email sent; response pending | Saved Sent Mail verified 15 October; no public forum post without permission |
+| CMT Discord permission | Declined; route excluded | Private text-only request persisted; support bot declined sharing; no public promotion |
 | r/CFA permission | Declined; route excluded | Existing moderator conversation verifies delivery and a moderator refusal. No public post and no duplicate request |
 | r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or permission yet. No public post or duplicate request |
 | DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
-| Five educator invitations | Deferred by owner; none sent | [Contact routes and individual drafts](EDUCATOR_INVITATIONS.md) retained; no Gmail installation or email outreach yet |
+| Five educator invitations | One sent; four drafts | FinTree saved Sent Mail verified 15 October; [remaining individual invitations](EDUCATOR_INVITATIONS.md) retained for relevant weekly releases |
 | Weekly measurements | Pending | Record actual metrics; unavailable is not zero |
 
 ## Releases
@@ -120,3 +120,12 @@ The native five-hour allowance reset and browser access remained available. Redd
 The owner deferred Gmail installation and the email approach. No mail integration was installed or connected, no email was sent, and the Gmail tab was closed. Prepared educator drafts are retained for later. The 300Hours forum is signed out; CMT's official Discord invitation requires owner login. The Discord login page is prepared for the owner; no account, date of birth, examination eligibility or terms acceptance was supplied.
 
 The channel Home tab was disabled. It is now enabled with the verified public quick tour as the trailer for viewers who have not subscribed. Studio's saved state and the public channel homepage both show that video. Existing uploads and playlist sections were preserved. The owner is completing Discord login; no further Discord interaction should occur until the owner confirms completion.
+
+
+### 2026-10-15 — browser email outreach resumed; CMT route excluded
+
+The owner re-enabled email outreach through the signed-in Gmail browser. No mail integration was installed. FinTree received one Send action to its published educator contact after a focused sent-mail duplicate search returned no matches. Gmail displayed Message sent; opening the saved Sent Mail confirmed recipient, subject and body. This establishes sending, not recipient delivery, reading or feedback. Four educator drafts remain for later weeks.
+
+One organic forum-permission request was sent to the published 300Hours advertising contact, explicitly asking routing to the forum administrator and no paid placement. A focused duplicate search preceded sending, and the saved Sent Mail thread was verified. Permission remains pending; no public forum post was made.
+
+CMT's private support ticket accepted a text-only permission question. An earlier link-containing attempt was blocked and is not counted as delivered. After reload, the text-only request persisted. The official support bot declined promotion in CMT channels. This route is excluded; no public sharing or alternate-contact escalation is planned. Private correspondence and owner email details are not included in the public launch kit.

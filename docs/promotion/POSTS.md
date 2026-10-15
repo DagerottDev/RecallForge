@@ -48,7 +48,7 @@ App: https://dagerottdev.github.io/RecallForge/
 Source: https://github.com/DagerottDev/RecallForge
 Walkthrough: [VIDEO_URL]
 
-## 300Hours administrator request
+## 300Hours administrator request — sent 15 October; response pending
 
 Subject: Would an independent free study-workspace demonstration be appropriate for your forum?
 
@@ -88,14 +88,14 @@ Source: https://github.com/DagerottDev/RecallForge
 
 What would improve the explanation or your ability to review a mistaken calculation?
 
-## CMT Discord permission request
+## CMT Discord permission request — declined; archived, do not resend
 
 Hello, I built RecallForge, a free open-source browser practice workspace. I have a ten-question original introductory technical-analysis demo covering moving averages, support/resistance, RSI context and indicator limitations, plus a short walkthrough. It does not use official CMT questions or claim endorsement. Is there an accessible channel where a disclosed demonstration and feedback request would be appropriate? I will follow staff guidance and will not post in candidate-only spaces without eligibility.
 
 App: https://dagerottdev.github.io/RecallForge/
 Repository: https://github.com/DagerottDev/RecallForge
 
-## CMT community draft — staff permission required
+## CMT community draft — excluded after staff-support decline
 
 I built RecallForge, a free open-source study workspace. Here is a short demonstration using original introductory moving-average and RSI questions: [VIDEO_URL]
 
@@ -112,7 +112,7 @@ Skipped at the owner's request. Do not submit to Hacker News or request its sign
 
 ## Educator / study-group invitation
 
-Email approach deferred by the owner. Keep as an unsent draft.
+Email outreach is re-enabled through the signed-in browser. Use the individual drafts and delivery record in EDUCATOR_INVITATIONS.md; check duplicates before sending.
 
 Subject: Could an original free practice demo be useful to your study group?
 
