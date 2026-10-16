@@ -15,7 +15,7 @@ Free, open-source browser practice and revision with original question packs, so
 - Questions and review: [source record](promotion/SOURCES.md)
 - Narration, titles, scenes and upload timing: [video specification](promotion/videos.json)
 - Ready-to-adapt community posts and outreach: [publication drafts](promotion/POSTS.md)
-- Five individual educator invitations, one sent: [tailored drafts and verified contact routes](promotion/EDUCATOR_INVITATIONS.md)
+- Five individual educator invitations, all five sent: [tailored drafts and verified contact routes](promotion/EDUCATOR_INVITATIONS.md)
 - Actual outcomes and remaining gates: [publication log](promotion/PUBLICATION_LOG.md)
 
 ## YouTube channel package
@@ -43,7 +43,7 @@ Descriptions start with the app and repository links. Then give the specific tut
 - Official CMT Discord: excluded after its support bot declined promotion on 15 October. Do not post publicly or seek alternate staff contacts to bypass that decision.
 - r/CFA: excluded after the moderator decline. r/FRM: existing modmail delivered; await an explicit response before posting. Do not duplicate either request.
 - DEV Community: complete the signed-in owner's profile, preserve existing valid information, and publish the engineering article. Use verified project links and avoid invented background or qualifications. Check for an existing article before creating a duplicate.
-- Five educators/study-group organizers: FinTree sent on 15 October; retain the other four invitations for their relevant weekly release. Use individual relevant messages and at most one follow-up after seven days. Confirm promotional or group-sharing rules first.
+- Five educators/study-group organizers: all five invitations sent and verified, FinTree on 15 October and IFT, Aswini Bajaj, Optuma and AnalystPrep on 16 October. Each used the public quick tour and live app sample; future tutorials are not needed to try the demo. Await feedback. At most one follow-up after seven days; no repeat initial invitation. Group-sharing rules and forum permissions still apply.
 - Bionic Turtle: one permission email sent to its published support contact on 15 October; await staff response before any forum post. AnalystForum: .com access unavailable on 15 October; no verified alternate contact or message. Do not post advertisements in their discussions.
 
 Daily allocation: ten minutes responding to feedback, ten minutes contributing useful discussion, ten minutes reviewing results. Spend that time on actual helpful participation; do not manufacture activity or repetitive posts. No paid ads, mass messages, Product Hunt launch, or LinkedIn activity.

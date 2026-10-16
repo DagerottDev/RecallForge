@@ -26,7 +26,7 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or permission yet. No public post or duplicate request |
 | DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
-| Five educator invitations | One sent; four drafts | FinTree saved Sent Mail verified 15 October; [remaining individual invitations](EDUCATOR_INVITATIONS.md) retained for relevant weekly releases |
+| Five educator invitations | Five sent; replies pending | FinTree verified 15 October; IFT, Aswini Bajaj, Optuma and AnalystPrep verified 16 October. [Contact/source and delivery record](EDUCATOR_INVITATIONS.md). No receipt, reading or endorsement assumed |
 | Weekly measurements | Initial snapshot recorded 14 October | Local metrics record preserves displayed ranges and QA-view caveats; next weekly review due 21 October; unavailable is not zero |
 
 ## Releases
@@ -139,3 +139,15 @@ CMT's private support ticket accepted a text-only permission question. An earlie
 One Bionic Turtle forum-permission email was sent to its published support address after a focused duplicate search returned no matching prior Send. Gmail displayed Message sent, and the saved Sent Mail thread matched the intended recipient, subject and body. Staff permission, recipient delivery and reading remain unknown. AnalystForum's .com site could not be reached; no unverified alternate domain or address was used. A targeted recent sender/RecallForge-subject search showed no FinTree or 300Hours reply. The public DEV article displayed Top comments (0); no reply was needed.
 
 Six distinct X drafts now use the actual upcoming video IDs, one concrete feedback question each, creator disclosure and app links. They remain unsent until each corresponding video is independently verified public on its planned date. No unattended automation or early release was introduced.
+
+
+### 2026-10-16 — educator outreach completed
+
+Usage reset was verified before resuming. The existing r/FRM moderator conversation was accessible again and still contained only the original request, with no moderator response. A targeted recent email check showed no RecallForge response from the three earlier outreach addresses. No duplicate request, public forum post or early video release was made.
+
+The already public app samples and quick tour allowed the educator invitations to proceed without waiting for future weekly tutorials. IFT's official ILEX guide publishes support@ift.world; Aswini Bajaj's official site publishes its education collaboration address; Optuma's current knowledge-base page publishes support@optuma.com; AnalystPrep's official contact page publishes support@analystprep.com. Each route was rechecked before sending. Support-address invitations ask routing to education or product staff and do not imply a student account, partnership or forum permission. No phone-required form was submitted.
+
+For each of these four invitations, the focused sent-mail search returned no matching prior send, Gmail displayed Message sent, and the saved Sent Mail recipient, subject and body matched the reviewed message. This completes five educator invitations in total, plus the separate 300Hours and Bionic Turtle permission emails. Recipient delivery, reading and substantive feedback are not established. No follow-up is scheduled; earliest allowed dates are 22 October for FinTree and 23 October for the four new invitations. Private correspondence screenshots remain local.
+
+
+Current Studio content tables were checked on 16 October: one public main video, one public Short, three scheduled main videos and three scheduled Shorts. Dates remain 20/22/27/29 October and 3/5 November. The public tour displayed four views and the first Short26 views, with zero comments displayed on those two rows. These30 combined displayed views can include creator QA and do not prove learner adoption. The public GitHub repository API returned zero stars and forks. Subscriber, watch-time, consenting-learner and full feedback metrics were not rechecked and remain unavailable in this snapshot.

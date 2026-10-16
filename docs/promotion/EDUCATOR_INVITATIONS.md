@@ -2,7 +2,7 @@
 
 Email re-enabled by the owner on 2026-10-15 through the signed-in Gmail browser. No Gmail integration is installed or connected.
 
-FinTree is sent; the other four tailored drafts remain unsent. Send individually during the campaign, after checking the publication log for duplicates. Use the relevant public tour; do not share a private or scheduled video. Count an invitation only after verifying saved Sent Mail; this does not establish recipient delivery or reading. One follow-up after at least seven days is the campaign limit.
+All five individual invitations are sent: FinTree on 15 October, IFT, Aswini Bajaj, Optuma and AnalystPrep on 16 October. A focused sent-mail duplicate search preceded each send, followed by Message sent and saved Sent Mail verification. Each used the public quick tour and live app samples. The earlier suggestions to wait for future tutorials were replaced with the already public demos; no private or scheduled video was shared. Sending does not establish recipient delivery, reading, endorsement or feedback. At most one follow-up after seven days is the campaign limit; do not resend initial invitations.
 
 ## 1. FinTree
 
@@ -27,7 +27,7 @@ Rajveer — creator of RecallForge
 
 ## 2. IFT
 
-Route: [IFT's official contact page](https://ift.world/contact-us/) directs inquiries to its [support form](https://ift.freshdesk.com/support/tickets/new). It offers Other Query and Suggestion categories. Check current required fields before using the form; do not invent exam-registration or purchase details. Suggested timing: after the CFA walkthrough is publicly verified.
+Route: support@ift.world is published on the final page of the [official ILEX guide](https://ift.world/?download_id=28448&smd_process_download=1), rechecked on 16 October. The [contact page](https://ift.world/contact-us/) also directs inquiries to its support portal. One email asking routing to education/product staff was sent on 16 October, using the public quick tour and live CFA sample.
 
 Subject: Feedback request on source-linked introductory practice
 
@@ -48,7 +48,7 @@ Rajveer — creator of RecallForge
 
 ## 3. Aswini Bajaj education team
 
-Route: `aswinibajaj.edu@gmail.com`, published under Collaboration on [the official site](https://aswinibajaj.com/). Use this education route, not the separate startup/SME address. Suggested timing: after the FRM walkthrough is publicly verified.
+Route: `aswinibajaj.edu@gmail.com`, published under Collaboration on [the official site](https://aswinibajaj.com/). Use this education route, not the separate startup/SME address. Sent on 16 October using the public quick tour and live risk sample.
 
 Subject: Could a mistake-to-revision demo help a finance study group?
 
@@ -69,9 +69,9 @@ Rajveer — creator of RecallForge
 
 ## 4. Optuma education team
 
-Route: the [public contact form](https://www.optuma.com/contact/) linked by [Optuma's CMT course page](https://learn.optuma.com/courses/cmt-level-1-preparation-course/). The form currently requests a phone number; do not infer or supply the owner's number. Use an independently verified public email route if available, or obtain the owner's specific permission before supplying a number. Suggested timing: after the CMT walkthrough is publicly verified.
+Route: the [public contact form](https://www.optuma.com/contact/) linked by [Optuma's CMT course page](https://learn.optuma.com/courses/cmt-level-1-preparation-course/). The form currently requests a phone number; do not infer or supply the owner's number. Use an independently verified public email route if available, or obtain the owner's specific permission before supplying a number. An individual routing request was sent to the published support email on 16 October, using the public quick tour and live technical-analysis sample. No phone-required form was submitted.
 
-Route recheck on 15 October: [Optuma 101](https://www.optuma.com/kb/getting-started/optuma-101-getting-started/) publishes support@optuma.com, while an [older support FAQ](https://www.optuma.com/kb/optuma/troubleshooting-and-faqs/faqs/new-support-system-f.a.q) says email was replaced by tickets. Reconfirm the current accepted route before the November invitation; neither page establishes permission to post in student forums. Do not submit the phone-required contact form without the owner supplying and authorizing that detail.
+Route recheck on 15 October: [Optuma 101](https://www.optuma.com/kb/getting-started/optuma-101-getting-started/) publishes support@optuma.com, while an [older support FAQ](https://www.optuma.com/kb/optuma/troubleshooting-and-faqs/faqs/new-support-system-f.a.q) says email was replaced by tickets. The current public knowledge-base email was used for one education-team routing request on 16 October; acceptance and staff response remain unknown. Neither page establishes permission to post in student forums. Do not submit the phone-required contact form without the owner supplying and authorizing that detail.
 
 Subject: Feedback on an original technical-analysis practice explanation
 
@@ -92,7 +92,7 @@ Rajveer — creator of RecallForge
 
 ## 5. AnalystPrep education team
 
-Route: `support@analystprep.com`, published on [the official contact page](https://analystprep.com/contact-us/). Its public site lists CFA and FRM learning materials. Ask the support team to route the note to education/product staff; do not assume an endorsement or partnership. Suggested timing: later in the campaign, after the first four individual invitations have been logged.
+Route: `support@analystprep.com`, published on [the official contact page](https://analystprep.com/contact-us/). Its public site lists CFA and FRM learning materials. Ask the support team to route the note to education/product staff; do not assume an endorsement or partnership. Sent individually on 16 October after the preceding four invitations were verified, using the public quick tour and live risk sample.
 
 Subject: Feedback on a simplified risk-concepts explanation
 
@@ -113,4 +113,4 @@ Rajveer — creator of RecallForge
 
 ## Delivery record
 
-FinTree was sent on 15 October 2026. Gmail showed Message sent, and the saved Sent Mail message matched the intended recipient, subject and body. A focused sent-mail search showed no matching prior invitation before sending. Recipient delivery, reading and feedback remain unknown. Do not follow up before 22 October. The remaining four invitations are drafts for later campaign weeks.
+FinTree was sent on 15 October 2026. Gmail showed Message sent, and the saved Sent Mail message matched the intended recipient, subject and body. A focused sent-mail search showed no matching prior invitation before sending. Recipient delivery, reading and feedback remain unknown. Do not follow up before 22 October. IFT, Aswini Bajaj, Optuma and AnalystPrep were sent on 16 October after their official contact routes were rechecked. All four saved Sent Mail threads matched their reviewed recipients, subjects and bodies. Earliest permitted follow-up for these four is 23 October; no follow-up is scheduled. Private screenshots remain local and are excluded from the public launch kit.
