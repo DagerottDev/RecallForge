@@ -23,10 +23,10 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | Search discovery | Deployed and verified | Static guide, metadata/schema, sitemap and optional llms.txt; [CI/Pages passed](https://github.com/DagerottDev/RecallForge/actions/runs/38743411450), all six live artifacts match the validated build |
 | CMT Discord permission | Declined; route excluded | Private text-only request persisted; support bot declined sharing; no public promotion |
 | r/CFA permission | Declined; route excluded | Existing moderator conversation verifies delivery and a moderator refusal. No public post and no duplicate request |
-| r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or permission yet. No public post or duplicate request |
+| r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or promotion permission yet. No RecallForge promotion or duplicate request; separate sourced study-workflow reply linked below |
 | DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
-| Five educator invitations | Five sent; replies pending | FinTree verified 15 October; IFT, Aswini Bajaj, Optuma and AnalystPrep verified 16 October. [Contact/source and delivery record](EDUCATOR_INVITATIONS.md). No receipt, reading or endorsement assumed |
+| Five educator invitations | Five sent; replies pending | FinTree verified 15 October; IFT, Aswini Bajaj, Optuma and AnalystPrep verified 16 October. [Contact/source and delivery record](EDUCATOR_INVITATIONS.md). Optuma automated receipt confirmed; other receipts, reading and endorsement unverified |
 | Weekly measurements | Initial snapshot recorded 14 October | Local metrics record preserves displayed ranges and QA-view caveats; next weekly review due 21 October; unavailable is not zero |
 
 ## Releases
@@ -151,3 +151,10 @@ For each of these four invitations, the focused sent-mail search returned no mat
 
 
 Current Studio content tables were checked on 16 October: one public main video, one public Short, three scheduled main videos and three scheduled Shorts. Dates remain 20/22/27/29 October and 3/5 November. The public tour displayed four views and the first Short26 views, with zero comments displayed on those two rows. These30 combined displayed views can include creator QA and do not prove learner adoption. The public GitHub repository API returned zero stars and forks. Subscriber, watch-time, consenting-learner and full feedback metrics were not rechecked and remain unavailable in this snapshot.
+
+
+### 2026-10-16 — receipt acknowledgement and useful community participation
+
+Optuma sent an automated acknowledgement confirming receipt and creation of a support ticket. It says a representative will review the request. This is not a personal response, endorsement, learner feedback or permission to promote in its forum. No reply or duplicate invitation was sent in response to the automated notice. Private receipt details remain local.
+
+One previously unanswered r/FRM question about accessing the official Part I practice exams received a [sourced workflow reply](https://www.reddit.com/r/FRM/comments/1x5vilj/comment/ph409cj/). Its factual statements were checked against [GARP's current study-materials page](https://www.garp.org/frm/study-materials). The reply contains no RecallForge mention, product link, exam-qualification claim or provider question content. It persisted after reloading the thread under the signed-in owner account. Moderator permission for a RecallForge resource post is still pending. This is an outgoing community contribution, not an incoming useful-feedback response.
