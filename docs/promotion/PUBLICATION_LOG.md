@@ -18,7 +18,7 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | X channel announcement | Public 2026-10-14 | [Creator-disclosed announcement](https://x.com/Rajveer761SM/status/2110279973424783794), approved logo graphic with alt text, tour/app/source links |
 | X first-Short announcement | Public 2026-10-15 | [Public post](https://x.com/Rajveer761SM/status/2110686326362394931); creator disclosure, video/app links and one feedback question; sent confirmation and permalink verified |
 | 300Hours permission | Email sent; response pending | Saved Sent Mail verified 15 October; no public forum post without permission |
-| Bionic Turtle permission | Email sent; response pending | Published support contact; duplicate search clear, Message sent and saved Sent Mail verified 15 October; no public post |
+| Bionic Turtle permission | Automated receipt confirmed; personal response pending | Published support contact; saved Sent Mail verified 15 October and acknowledgement verified 16 October; no permission or public promotion |
 | AnalystForum prospect | Access unavailable | .com site failed in web fetch and IAB on 15 October; no verified staff route or message |
 | Search discovery | Deployed and verified | Static guide, metadata/schema, sitemap and optional llms.txt; [CI/Pages passed](https://github.com/DagerottDev/RecallForge/actions/runs/38743411450), all six live artifacts match the validated build |
 | CMT Discord permission | Declined; route excluded | Private text-only request persisted; support bot declined sharing; no public promotion |
@@ -26,7 +26,7 @@ Prepared 2026-10-12. This log is evidence, not a list of assumed publications. D
 | r/FRM permission | Delivered; awaiting response | Existing moderator conversation contains the complete original request. No moderator response or promotion permission yet. No RecallForge promotion or duplicate request; separate sourced study-workflow reply linked below |
 | DEV profile and article | Public 2026-10-15 | [Profile](https://dev.to/rajveer_sharma_00f198ed78) updated with verified project details; [engineering article](https://dev.to/rajveer_sharma_00f198ed78/building-recallforge-an-offline-study-workspace-with-source-linked-practice-18p3) published with approved logo, four relevant tags and Fully Autonomous AI disclosure |
 | Show HN | Skipped by owner | No submission or further sign-in request |
-| Five educator invitations | Five sent; replies pending | FinTree verified 15 October; IFT, Aswini Bajaj, Optuma and AnalystPrep verified 16 October. [Contact/source and delivery record](EDUCATOR_INVITATIONS.md). Optuma automated receipt confirmed; other receipts, reading and endorsement unverified |
+| Five educator invitations | Five sent; replies pending | FinTree verified 15 October; IFT, Aswini Bajaj, Optuma and AnalystPrep verified 16 October. [Contact/source and delivery record](EDUCATOR_INVITATIONS.md). IFT and Optuma automated receipts confirmed; other receipts, reading and endorsement unverified |
 | Weekly measurements | Initial snapshot recorded 14 October | Local metrics record preserves displayed ranges and QA-view caveats; next weekly review due 21 October; unavailable is not zero |
 
 ## Releases
@@ -158,3 +158,6 @@ Current Studio content tables were checked on 16 October: one public main video,
 Optuma sent an automated acknowledgement confirming receipt and creation of a support ticket. It says a representative will review the request. This is not a personal response, endorsement, learner feedback or permission to promote in its forum. No reply or duplicate invitation was sent in response to the automated notice. Private receipt details remain local.
 
 One previously unanswered r/FRM question about accessing the official Part I practice exams received a [sourced workflow reply](https://www.reddit.com/r/FRM/comments/1x5vilj/comment/ph409cj/). Its factual statements were checked against [GARP's current study-materials page](https://www.garp.org/frm/study-materials). The reply contains no RecallForge mention, product link, exam-qualification claim or provider question content. It persisted after reloading the thread under the signed-in owner account. Moderator permission for a RecallForge resource post is still pending. This is an outgoing community contribution, not an incoming useful-feedback response.
+
+
+Later on 16 October, targeted outreach-domain mail checks found automated acknowledgements from IFT and Bionic Turtle as well. Both bodies explicitly confirm receipt and say a representative will respond. They do not establish personal review, useful learner feedback, endorsement or forum-sharing permission. No duplicate request or response to the automated notices was sent. Private ticket identifiers and correspondence screenshots remain local.
